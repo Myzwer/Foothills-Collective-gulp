@@ -16,9 +16,8 @@ get_header(); ?>
     <video src="https://foothills-collective.com/wp-content/uploads/2019/11/whth-v2.mp4" autoplay loop playsinline muted></video>
 
     <div class="viewport-header">
-        <h1>What happened That Night</h1>
-        <div class = "featured-watch"><h1>Watch the exclusive video</h1></div>
-        </h1>
+        <h1>Foothills Collective</h1>
+
     </div>
 
 
@@ -27,7 +26,6 @@ get_header(); ?>
         <div class="grid-x grid-padding-x">
             <div class="large-12 cell">
                 <h1>Welcome to 6!</h1>
-
                 <div class="buttons">
                     <button class="btn-hover color-2">BUTTON</button>
                 </div>
