@@ -1,0 +1,64 @@
+// Headers
+h1, h2, h3 {
+  font-family: $head-font;
+}
+
+h1 {
+  text-transform: uppercase;
+  font-size: 3em;
+  color: $white;
+}
+
+h2 {
+  font-size: 2em;
+  color: $primary;
+}
+
+h3 {
+  font-size: 1.5em;
+  color: $primary;
+}
+
+h4 {
+  font-family: $main-font;
+  font-size: 1.1em;
+  text-transform: uppercase;
+  color: $primary;
+  font-weight: 800;
+}
+
+.nav-header {
+  font-family: $head-font;
+  text-transform: lowercase;
+  font-size: 3em;
+  color: $white;
+}
+
+
+//Body Styles
+body {
+  font-family: $main-font;
+}
+
+p {
+  font-family: $main-font;
+  font-size: 1em;
+  color: $primary;
+  padding: 20px;
+}
+
+
+
+// Text Alignments
+.left {
+  text-align: left;
+}
+
+.center {
+  text-align: center;
+  margin: 0 auto;
+}
+
+.right {
+  text-align: right;
+}
