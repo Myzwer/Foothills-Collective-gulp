@@ -5,7 +5,10 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/devwp/dist/css/main.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/dist/css/main.min.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/devwp/dist/css/maps/main.min.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/dist/css/maps/main.min.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/devwp/front-page.php" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/front-page.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/devwp/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/devwp/sass/globals/_backgrounds.scss" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/sass/globals/_backgrounds.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/devwp/sass/globals/_typography.scss" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/sass/globals/_typography.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/devwp/sass/navigation/_footer.scss" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/sass/navigation/_footer.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -87,7 +90,7 @@
       <workItem from="1580878469154" duration="6045000" />
       <workItem from="1581052090799" duration="32406000" />
       <workItem from="1581967324921" duration="7020000" />
-      <workItem from="1582051277140" duration="11135000" />
+      <workItem from="1582051277140" duration="12327000" />
     </task>
     <servers />
   </component>
@@ -111,10 +114,10 @@
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="419" y="314" key="com.intellij.ide.util.TipDialog/0.23.1440.877@0.23.1440.877" timestamp="1581967344874" />
-    <state x="3869" y="251" width="894" height="815" key="search.everywhere.popup" timestamp="1582035897616">
+    <state x="3869" y="251" width="894" height="815" key="search.everywhere.popup" timestamp="1582149592009">
       <screen x="3360" y="23" width="1920" height="1057" />
     </state>
-    <state x="3869" y="251" width="894" height="815" key="search.everywhere.popup/0.23.1440.877/3360.23.1920.1057/1440.23.1920.1057@3360.23.1920.1057" timestamp="1582035897616" />
+    <state x="3869" y="251" width="894" height="815" key="search.everywhere.popup/0.23.1440.877/3360.23.1920.1057/1440.23.1920.1057@3360.23.1920.1057" timestamp="1582149592009" />
     <state x="382" y="212" width="670" height="676" key="search.everywhere.popup/0.23.1440.877@0.23.1440.877" timestamp="1580885562204" />
     <state x="470" y="400" key="vcs.readOnlyHandler.ReadOnlyStatusDialog" timestamp="1579837112442">
       <screen x="0" y="23" width="1440" height="877" />

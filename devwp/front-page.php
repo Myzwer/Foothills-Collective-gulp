@@ -16,8 +16,7 @@ get_header(); ?>
     <video src="https://foothills-collective.com/wp-content/uploads/2019/11/whth-v2.mp4" autoplay loop playsinline muted></video>
 
     <div class="viewport-header">
-        <h1>Foothills Collective</h1>
-
+        <h1 class = "hero-header">Foothills Collective</h1>
     </div>
 
 

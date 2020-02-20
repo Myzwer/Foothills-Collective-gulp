@@ -35,6 +35,7 @@ video {
   align-items: center;
   justify-content: center;
   height: 100vh;
+  padding-bottom: 100px; // this pulls the text UP to be centered since the hidden background on the navbar makes it appear off center
 }
 
 

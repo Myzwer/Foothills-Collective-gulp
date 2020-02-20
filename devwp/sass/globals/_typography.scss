@@ -35,6 +35,29 @@ h4 {
 }
 
 
+//Header on homepage
+.hero-header {
+  font-size: 2.8em;
+}
+
+@media screen and (min-width: 40em) {
+  .hero-header {
+    font-size: 4em;
+  }
+}
+
+@media screen and (min-width: 64em) {
+  .hero-header {
+    font-size: 6em;
+  }
+}
+
+
+
+
+
+
+
 //Body Styles
 body {
   font-family: $main-font;
