@@ -13,11 +13,36 @@
 
 get_header(); ?>
 
-    <video src="https://foothills-collective.com/wp-content/uploads/2019/11/whth-v2.mp4" autoplay loop playsinline muted></video>
+    <video src="https://b16b64e9fc79863eb097-2d57ced7297adfa11a0f9d9e6bf0a0a1.ssl.cf2.rackcdn.com/h264-720/n/0e9372179_1571253600_now-header-video.mp4" autoplay loop playsinline muted></video>
 
     <div class="viewport-header">
         <h1 class = "hero-header">Foothills Collective</h1>
     </div>
+
+<div class="full-width dark-background">
+    <div class = "grid-container full-width">
+        <div class="grid-x grid-padding-x">
+            <div class="small-12 large-10 large-offset-1 cell">
+                <p class="featured-paragraph center"><?php the_field('featured_paragraph'); ?></p>
+                <div class="buttons">
+                    <a href = "<?php the_field('button_link'); ?>">
+                        <button class="btn-hover color-1"><?php the_field('button_text'); ?></button>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="full-width main-background">
+    <div class = "grid-container full-width">
+        <div class="grid-x grid-padding-x">
+            <div class="large-12 cell">
+            </div>
+        </div>
+    </div>
+</div>
 
 
 <div class="full-width main-background">

@@ -8,8 +8,8 @@
       <change beforePath="$PROJECT_DIR$/devwp/front-page.php" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/front-page.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/devwp/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/main.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/devwp/sass/globals/_backgrounds.scss" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/sass/globals/_backgrounds.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/devwp/sass/globals/_buttons.scss" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/sass/globals/_buttons.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/devwp/sass/globals/_typography.scss" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/sass/globals/_typography.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/devwp/sass/navigation/_footer.scss" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/sass/navigation/_footer.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -90,7 +90,7 @@
       <workItem from="1580878469154" duration="6045000" />
       <workItem from="1581052090799" duration="32406000" />
       <workItem from="1581967324921" duration="7020000" />
-      <workItem from="1582051277140" duration="12327000" />
+      <workItem from="1582051277140" duration="13958000" />
     </task>
     <servers />
   </component>
