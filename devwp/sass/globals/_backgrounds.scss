@@ -13,7 +13,9 @@
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+  width: 100%;
 }
+
 
 
 // Video Background
@@ -48,4 +50,31 @@ video {
 .dark-background {
   background-color: $charcoal;
   color: $white;
+}
+
+
+
+// Image Banners
+.image-banner {
+  height: 200px;
+  margin-bottom: 30px;
+  position: relative;
+}
+
+.image-banner-large {
+  height: 400px;
+  margin-bottom: 30px;
+  position: relative;
+}
+
+
+.text-overlay {
+  color: $white;
+}
+
+.text-overlay-p {
+  color: $white;
+  margin: 0;
+  padding: 0;
+  text-transform: uppercase;
 }

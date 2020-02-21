@@ -13,10 +13,10 @@
 
 get_header(); ?>
 
-    <video src="https://b16b64e9fc79863eb097-2d57ced7297adfa11a0f9d9e6bf0a0a1.ssl.cf2.rackcdn.com/h264-720/n/0e9372179_1571253600_now-header-video.mp4" autoplay loop playsinline muted></video>
+    <video src="<?php the_field('video_background'); ?>" autoplay loop playsinline muted></video>
 
     <div class="viewport-header">
-        <h1 class = "hero-header">Foothills Collective</h1>
+        <h1 class = "hero-header"><?php the_field('site_title'); ?></h1>
     </div>
 
 <div class="full-width dark-background">
@@ -36,111 +36,58 @@ get_header(); ?>
 
 
 <div class="full-width main-background">
-    <div class = "grid-container full-width">
-        <div class="grid-x grid-padding-x">
+    <div class = "grid-container ">
+        <div class="grid-x grid-padding-x padding-outer">
             <div class="large-12 cell">
-            </div>
-        </div>
-    </div>
-</div>
-
-
-<div class="full-width main-background">
-    <div class = "grid-container">
-        <div class="grid-x grid-padding-x">
-            <div class="large-12 cell">
-                <h1>Welcome to 6!</h1>
-                <div class="buttons">
-                    <button class="btn-hover color-2">BUTTON</button>
-                </div>
-                <div class="callout">
-                    <h3>We're stoked you want to try Foundation! <i class="fas fa-address-book"></i></h3>
-                    <p>To get going, this file (index.html) includes some basic styles you can modify, play around with, or totally destroy to get going.</p>
-                    <p>Once you've exhausted the fun in this document, you should check out:</p>
-                    <div class="grid-x grid-padding-x">
-                        <div class="large-4 medium-4 cell">
-                            <p><a href="http://foundation.zurb.com/docs">Foundation Documentation</a><br />Everything you need to know about using the framework.</p>
-                        </div>
-                        <div class="large-4 medium-4 cell">
-                            <p><a href="http://zurb.com/university/code-skills">Foundation Code Skills</a><br />These online courses offer you a chance to better understand how Foundation works and how you can master it to create awesome projects.</p>
-                        </div>
-                        <div class="large-4 medium-4 cell">
-                            <p><a href="http://foundation.zurb.com/forum">Foundation Forum</a><br />Join the Foundation community to ask a question or show off your knowledge.</p>
-                        </div>
-                    </div>
-                    <div class="grid-x grid-padding-x">
-                        <div class="large-4 medium-4 medium-push-2 cell">
-                            <p><a href="http://github.com/zurb/foundation">Foundation on Github</a><br />Latest code, issue reports, feature requests and more.</p>
-                        </div>
-                        <div class="large-4 medium-4 medium-pull-2 cell">
-                            <p><a href="https://twitter.com/ZURBfoundation">@zurbfoundation</a><br />Ping us on Twitter if you have questions. When you build something with this we'd love to see it (and send you a totally boss sticker).</p>
-                        </div>
+                <div class="image-banner" style = "background: url(<?php the_field('top_featured_image_background_1'); ?>);background-position: center center;background-repeat: no-repeat;background-attachment: scroll;background-size: cover;">
+                    <div class = "content-middle">
+                        <h2 class = "text-overlay center"><?php the_field('top_featured_image_text_line_1'); ?></h2>
+                        <h3 class = "text-overlay center"><?php the_field('top_featured_image_text_line_2'); ?></h3>
                     </div>
                 </div>
             </div>
-        </div>
-
-        <div class="grid-x grid-padding-x">
-            <div class="large-8 medium-8 cell">
-                <h5>Here&rsquo;s your basic grid:</h5>
-                <!-- Grid Example -->
-
-                <div class="grid-x grid-padding-x">
-                    <div class="large-12 cell">
-                        <div class="primary callout">
-                            <p><strong>This is a twelve cell section in a grid-x.</strong> Each of these includes a div.callout element so you can see where the cell are - it's not required at all for the grid.</p>
+            <div class="small-12 medium-6 cell">
+                <a href="#">
+                    <div class="image-banner" style = "background: url(<?php the_field('left_image_link_background'); ?>);background-position: center center;background-repeat: no-repeat;background-attachment: scroll;background-size: cover;">
+                        <div class = "content-middle">
+                            <h2 class = "text-overlay center"><?php the_field('left_image_link_text_line_1'); ?></h2>
+                            <p class = "text-overlay-p center"><?php the_field('left_image_link_text_line_2'); ?></p>
+                            <div class="arrow bounce">
+                                <div class="fa fa-arrow-down fa-2x"></div>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="grid-x grid-padding-x">
-                    <div class="large-6 medium-6 cell">
-                        <div class="primary callout">
-                            <p>Six cell</p>
+                </a>
+            </div>
+            <div class="small-12 medium-6 cell">
+                <a href="#">
+                    <div class="image-banner" style = "background: url(<?php the_field('right_image_link_background'); ?>);background-position: center center;background-repeat: no-repeat;background-attachment: scroll;background-size: cover;">
+                        <div class = "content-middle">
+                            <h2 class = "text-overlay center"><?php the_field('right_image_link_text_line_1'); ?></h2>
+                            <p class = "text-overlay-p center"><?php the_field('right_image_link_text_line_2'); ?></p>
+                            <div class="arrow bounce">
+                                <div class="fa fa-arrow-down fa-2x"></div>
+                            </div>
                         </div>
                     </div>
-                    <div class="large-6 medium-6 cell">
-                        <div class="primary callout">
-                            <p>Six cell</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="grid-x grid-padding-x">
-                    <div class="large-4 medium-4 small-4 cell">
-                        <div class="primary callout">
-                            <p>Four cell</p>
-                        </div>
-                    </div>
-                    <div class="large-4 medium-4 small-4 cell">
-                        <div class="primary callout">
-                            <p>Four cell</p>
-                        </div>
-                    </div>
-                    <div class="large-4 medium-4 small-4 cell">
-                        <div class="primary callout">
-                            <p>Four cell</p>
-                        </div>
-                    </div>
-                </div>
+                </a>
             </div>
 
-            <div class="large-4 medium-4 cell">
-                <h5>Try one of these buttons:</h5>
-                <p><a href="#" class="button">Simple Button</a><br/>
-                    <a href="#" class="success button">Success Btn</a><br/>
-                    <a href="#" class="alert button">Alert Btn</a><br/>
-                    <a href="#" class="secondary button">Secondary Btn</a></p>
-                <div class="callout">
-                    <h5>So many components, girl!</h5>
-                    <p>A whole kitchen sink of goodies comes with Foundation. Check out the docs to see them all, along with details on making them your own.</p>
-                    <a href="http://foundation.zurb.com/sites/docs/" class="small button">Go to Foundation Docs</a>
+            <div class="small-12 cell">
+                <div class="image-banner-large" style = "background: url(<?php the_field('bottom_featured_image_background'); ?>);background-position: center center;background-repeat: no-repeat;background-attachment: scroll;background-size: cover;">
+                    <div class = "content-middle">
+                        <h2 class = "text-overlay center"><?php the_field('bottom_featured_image_text_line_1'); ?></h2>
+                        <div class="buttons center">
+                            <a href = "<?php the_field('bottom_featured_image_button_link'); ?>">
+                                <button class="btn-hover color-1"><?php the_field('bottom_featured_image_button_text'); ?></button>
+                            </a>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
 </div>
-
-
-
 
 
 <?php get_footer();
