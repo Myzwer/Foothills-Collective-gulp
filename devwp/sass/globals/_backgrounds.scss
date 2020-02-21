@@ -6,6 +6,8 @@
   background-size: cover;
   height: 600px;
   position: relative;
+  margin-top: -80px;
+  z-index: -1;
 }
 
 .content-middle {
@@ -20,6 +22,7 @@
 
 // Video Background
 video {
+  background-color: $primary;
   object-fit: cover;
   width: 100vw;
   height: 100vh;

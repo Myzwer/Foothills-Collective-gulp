@@ -7,7 +7,7 @@
  *
  *
  * @package WordPress
- * @subpackage Yestau
+ * @subpackage Dalemyn
  * @since 1.0.0
  */
 
