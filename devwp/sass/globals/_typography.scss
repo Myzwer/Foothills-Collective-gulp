@@ -81,6 +81,10 @@ p {
   padding-top: 60px;
 }
 
+.no-padding {
+  padding: 0px;
+}
+
 
 
 
@@ -99,4 +103,11 @@ p {
 
 .right {
   text-align: right;
+}
+
+
+
+// Text Transformations
+.capitalize {
+  text-transform: capitalize;
 }
