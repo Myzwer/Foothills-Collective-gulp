@@ -39,6 +39,8 @@ h4 {
 }
 
 
+
+
 //Header on homepage
 .hero-header {
   font-size: 2.8em;
@@ -85,6 +87,16 @@ p {
   padding: 0px;
 }
 
+.no-margin {
+  margin: 0;
+}
+
+.margin-top-only {
+  margin-top: 30px;
+}
+
+
+
 
 
 
@@ -111,3 +123,12 @@ p {
 .capitalize {
   text-transform: capitalize;
 }
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.bold {
+  font-weight: 800;
+}
+
