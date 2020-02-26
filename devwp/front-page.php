@@ -50,7 +50,7 @@ get_header(); ?>
                 <a href="#">
                     <div class="image-banner" style = "background: url(<?php the_field('left_image_link_background'); ?>);background-position: center center;background-repeat: no-repeat;background-attachment: scroll;background-size: cover;">
                         <div class = "content-middle">
-                            <h2 class = "text-overlay capitalize center"><?php the_field('left_image_link_text_line_1'); ?></h2>
+                            <h2 class = "text-overlay uppercase center"><?php the_field('left_image_link_text_line_1'); ?></h2>
                             <p class = "text-overlay-p center"><?php the_field('left_image_link_text_line_2'); ?></p>
                             <div class="arrow bounce">
                                 <div class="fa fa-arrow-down fa-2x"></div>
@@ -63,7 +63,7 @@ get_header(); ?>
                 <a href="#">
                     <div class="image-banner" style = "background: url(<?php the_field('right_image_link_background'); ?>);background-position: center center;background-repeat: no-repeat;background-attachment: scroll;background-size: cover;">
                         <div class = "content-middle">
-                            <h2 class = "text-overlay capitalize center"><?php the_field('right_image_link_text_line_1'); ?></h2>
+                            <h2 class = "text-overlay uppercase center"><?php the_field('right_image_link_text_line_1'); ?></h2>
                             <p class = "text-overlay-p center"><?php the_field('right_image_link_text_line_2'); ?></p>
                             <div class="arrow bounce">
                                 <div class="fa fa-arrow-down fa-2x"></div>
