@@ -39,7 +39,7 @@ get_header(); ?>
     <div class = "grid-container ">
         <div class="grid-x grid-padding-x padding-outer">
             <div class="large-12 cell">
-                <div class="image-banner" style = "background: url(<?php the_field('top_featured_image_background_1'); ?>);background-position: center center;background-repeat: no-repeat;background-attachment: scroll;background-size: cover;">
+                <div class="image-banner rounded" style = "background: url(<?php the_field('top_featured_image_background_1'); ?>);background-position: center center;background-repeat: no-repeat;background-attachment: scroll;background-size: cover;">
                     <div class = "content-middle">
                         <h2 class = "text-overlay center"><?php the_field('top_featured_image_text_line_1'); ?></h2>
                         <h3 class = "text-overlay center"><?php the_field('top_featured_image_text_line_2'); ?></h3>
@@ -48,7 +48,7 @@ get_header(); ?>
             </div>
             <div class="small-12 medium-6 cell">
                 <a href="#">
-                    <div class="image-banner" style = "background: url(<?php the_field('left_image_link_background'); ?>);background-position: center center;background-repeat: no-repeat;background-attachment: scroll;background-size: cover;">
+                    <div class="image-banner rounded" style = "background: url(<?php the_field('left_image_link_background'); ?>);background-position: center center;background-repeat: no-repeat;background-attachment: scroll;background-size: cover;">
                         <div class = "content-middle">
                             <h2 class = "text-overlay uppercase center"><?php the_field('left_image_link_text_line_1'); ?></h2>
                             <p class = "text-overlay-p center"><?php the_field('left_image_link_text_line_2'); ?></p>
@@ -61,7 +61,7 @@ get_header(); ?>
             </div>
             <div class="small-12 medium-6 cell">
                 <a href="#">
-                    <div class="image-banner" style = "background: url(<?php the_field('right_image_link_background'); ?>);background-position: center center;background-repeat: no-repeat;background-attachment: scroll;background-size: cover;">
+                    <div class="image-banner rounded" style = "background: url(<?php the_field('right_image_link_background'); ?>);background-position: center center;background-repeat: no-repeat;background-attachment: scroll;background-size: cover;">
                         <div class = "content-middle">
                             <h2 class = "text-overlay uppercase center"><?php the_field('right_image_link_text_line_1'); ?></h2>
                             <p class = "text-overlay-p center"><?php the_field('right_image_link_text_line_2'); ?></p>
@@ -74,7 +74,7 @@ get_header(); ?>
             </div>
 
             <div class="small-12 cell">
-                <div class="image-banner-large" style = "background: url(<?php the_field('bottom_featured_image_background'); ?>);background-position: center center;background-repeat: no-repeat;background-attachment: scroll;background-size: cover;">
+                <div class="image-banner-large rounded" style = "background: url(<?php the_field('bottom_featured_image_background'); ?>);background-position: center center;background-repeat: no-repeat;background-attachment: scroll;background-size: cover;">
                     <div class = "content-middle">
                         <h2 class = "text-overlay center"><?php the_field('bottom_featured_image_text_line_1'); ?></h2>
                         <div class="buttons center">
