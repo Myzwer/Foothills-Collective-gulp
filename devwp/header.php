@@ -23,7 +23,6 @@
     <div class = "logo">
         <a href="https://foothills-collective.com">
             <img src = "http://dalemyn.local/wp-content/uploads/2020/02/logo.png" alt = "logo">
-            <span class = "site-title">Foothills Collective</span>
         </a>
     </div>
 
