@@ -2,12 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="053c30ea-41d6-43a4-9236-366eb4cc3d4d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/devwp/privacy-policy.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/devwp/dist/css/main.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/dist/css/main.min.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/devwp/dist/css/maps/main.min.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/dist/css/maps/main.min.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/devwp/front-page.php" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/front-page.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/devwp/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/devwp/sass/grid/_overrides.scss" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/sass/grid/_overrides.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/devwp/resource-page.php" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/resource-page.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/devwp/sass/globals/_typography.scss" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/sass/globals/_typography.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,7 +90,7 @@
       <workItem from="1581052090799" duration="32406000" />
       <workItem from="1581967324921" duration="7020000" />
       <workItem from="1582051277140" duration="29394000" />
-      <workItem from="1582555533980" duration="24926000" />
+      <workItem from="1582555533980" duration="25896000" />
     </task>
     <servers />
   </component>
@@ -105,10 +106,10 @@
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="0" y="23" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.23.1440.877@0.23.1440.877" timestamp="1579583980761" />
-    <state x="4077" y="454" key="NewPhpFileDialog" timestamp="1582582200138">
+    <state x="4077" y="454" key="NewPhpFileDialog" timestamp="1582751223025">
       <screen x="3360" y="23" width="1920" height="1057" />
     </state>
-    <state x="4077" y="454" key="NewPhpFileDialog/0.23.1440.877/3360.23.1920.1057/1440.23.1920.1057@3360.23.1920.1057" timestamp="1582582200138" />
+    <state x="4077" y="454" key="NewPhpFileDialog/0.23.1440.877/3360.23.1920.1057/1440.23.1920.1057@3360.23.1920.1057" timestamp="1582751223025" />
     <state x="538" y="381" key="NewPhpFileDialog/0.23.1440.877@0.23.1440.877" timestamp="1582313882384" />
     <state x="419" y="314" key="com.intellij.ide.util.TipDialog" timestamp="1581967344874">
       <screen x="0" y="23" width="1440" height="877" />
