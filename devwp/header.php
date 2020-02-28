@@ -5,7 +5,7 @@
  * @link https://developer.wordpress.org/themes/basics/template-files/#template-partials
  *
  * @package WordPress
- * @subpackage Yestau
+ * @subpackage Dalemyn
  * @since 1.0.0
  */
 
@@ -14,6 +14,7 @@
 <head>
 <meta charset="<?php bloginfo( 'charset' ); ?>">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Foothills Collective</title>
 <link rel="profile" href="http://gmpg.org/xfn/11">
     <script src="https://kit.fontawesome.com/aa36ddf53c.js" crossorigin="anonymous"></script>
 <?php wp_head(); ?>
@@ -21,8 +22,8 @@
 
 <div class="topnav" id="myTopnav">
     <div class = "logo">
-        <a href="https://foothills-collective.com">
-            <img src = "http://dalemyn.local/wp-content/uploads/2020/02/logo.png" alt = "logo">
+        <a href="https://foothillscollective.com">
+            <img src = "https://foothillscollective.com/wp-content/uploads/2020/02/logo.png" alt = "logo">
         </a>
     </div>
 

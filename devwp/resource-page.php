@@ -41,9 +41,6 @@ get_header(); ?>
                     <p class = "no-padding no-margin"><a href="<?php the_field('where_to_listen_amazon'); ?>"><i class="fab fa-amazon"></i> Buy on Amazon</a></p>
                     <p class = "no-padding no-margin"><a href="<?php the_field('where_to_listen_youtube'); ?>"><i class="fab fa-youtube"></i> Watch on Youtube</a></p>
                     <p class = "no-padding no-margin"><a href="<?php the_field('where_to_listen_itunes'); ?>"><i class="fab fa-itunes-note"></i> Buy On iTunes</a></p>
-
-                    <p class = "no-padding no-margin"><a href="<?php the_field('where_to_listen_pandora'); ?>"><i class="fas fa-headphones-alt"></i> Listen On Pandora</a></p>
-
                     <p class = "no-padding no-margin"><a href="<?php the_field('where_to_listen_google_play'); ?>"><i class="fab fa-google-play"></i> Listen on Google Play</a></p>
                 </div>
             </div>
@@ -76,13 +73,13 @@ get_header(); ?>
                         </a>
                     </div>
                 </div>
-                <div class="small-12 medium-6 cell">
-                    <div class="buttons">
-                        <a href = "<?php the_field('multitracks_link'); ?>">
-                            <button class="btn-hover btn-extended color-2"><i class="fas fa-external-link-alt"></i> Multitracks</button>
-                        </a>
-                    </div>
-                </div>
+<!--                <div class="small-12 medium-6 cell">-->
+<!--                    <div class="buttons">-->
+<!--                        <a href = "--><?php //the_field('multitracks_link'); ?><!--">-->
+<!--                            <button class="btn-hover btn-extended color-2"><i class="fas fa-external-link-alt"></i> Multitracks</button>-->
+<!--                        </a>-->
+<!--                    </div>-->
+<!--                </div>-->
             </div>
         </div>
 

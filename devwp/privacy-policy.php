@@ -27,7 +27,7 @@ get_header(); ?>
     <div class="full-width main-background">
         <div class = "grid-container">
             <div class="grid-x grid-padding-x padding-outer">
-                <div class="small-12 medium-10 color-inverse cell">
+                <div class="small-12 medium-10 color-inverse cell dont-break-out">
                     <?php if ( have_posts() ) : while ( have_posts() ) : the_post();
                         the_content();
                     endwhile; else: ?>

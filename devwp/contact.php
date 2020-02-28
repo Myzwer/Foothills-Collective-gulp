@@ -34,7 +34,7 @@ get_header(); ?>
             </div>
             <div class="small-12 center cell">
                 <h3>Booking</h3>
-                <p>For booking inquiries, please fill out this form. We will get back to you as quickly as we can.</p>
+                <p>For booking inquiries, please complete this form. We will get back to you as quickly as we can.</p>
             </div>
             <div class="small-12 medium-10 cell">
                 <?php if ( have_posts() ) : while ( have_posts() ) : the_post();
