@@ -22,7 +22,7 @@ var specs = {
     'centerY': 50,
     'thickness': 10,
     'offset': -Math.PI/2,
-    'color': '#ef529f',
+    'color': '#06abd8',
     'bgColor': 'white',
     'idFont': 'small-caps 400 10px Verdana',
     'valueFont': 'bold 30px Verdana',

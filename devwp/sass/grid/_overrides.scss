@@ -19,7 +19,6 @@ body {
 }
 
 .dont-break-out {
-
   /* These are technically the same, but use both */
   overflow-wrap: break-word;
   word-wrap: break-word;
@@ -35,5 +34,15 @@ body {
   -moz-hyphens: auto;
   -webkit-hyphens: auto;
   hyphens: auto;
+}
 
+//this is to hide the navbar and footer on my landing page
+.page-id-212 .topnav, .page-id-212 .footer {
+  display: none;
+}
+
+
+//set the position of a parent element to relative so i can middle content
+.relative {
+  position: relative;
 }

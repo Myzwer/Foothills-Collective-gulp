@@ -16,16 +16,7 @@ get_header(); ?>
     <video src="<?php the_field('video_background'); ?>" autoplay loop playsinline muted></video>
 
     <div class="viewport-header">
-        <div id="countdown" data-date="2020-04-09" data-time="12:00:00">
-            <h1><?php the_field('site_title'); ?></h1>
-            <h1>Countdown to Album Release</h1>
-            <div class="canvas-container">
-                <canvas id="days"></canvas>
-                <canvas id="hours"></canvas>
-                <canvas id="minutes"></canvas>
-                <canvas id="seconds"></canvas>
-            </div>
-        </div>
+        <h1 class = "hero-header"><?php the_field('site_title'); ?></h1>
     </div>
 
 <div class="full-width dark-background">
