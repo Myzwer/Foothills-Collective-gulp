@@ -36,12 +36,12 @@ get_header(); ?>
                     <p class = "capitalize no-padding"><?php the_field('release_year'); ?></p>
 
                     <h4 class = "no-padding no-margin margin-top-only" >Where to Listen</h4>
-                    <p class = "no-padding no-margin"><a href="<?php the_field('where_to_listen_spotify'); ?>"><i class="fab fa-spotify"></i> Listen On Spotify</a></p>
-                    <p class = "no-padding no-margin"><a href="<?php the_field('where_to_listen_apple_music'); ?>"><i class="fab fa-itunes"></i> Listen On Apple Music</a></p>
-                    <p class = "no-padding no-margin"><a href="<?php the_field('where_to_listen_amazon'); ?>"><i class="fab fa-amazon"></i> Buy on Amazon</a></p>
-                    <p class = "no-padding no-margin"><a href="<?php the_field('where_to_listen_youtube'); ?>"><i class="fab fa-youtube"></i> Watch on Youtube</a></p>
-                    <p class = "no-padding no-margin"><a href="<?php the_field('where_to_listen_itunes'); ?>"><i class="fab fa-itunes-note"></i> Buy On iTunes</a></p>
-                    <p class = "no-padding no-margin"><a href="<?php the_field('where_to_listen_google_play'); ?>"><i class="fab fa-google-play"></i> Listen on Google Play</a></p>
+                    <p class = "no-padding no-margin"><a href="<?php the_field('where_to_listen_spotify'); ?>" target="_blank"><i class="fab fa-spotify"></i> Listen On Spotify</a></p>
+                    <p class = "no-padding no-margin"><a href="<?php the_field('where_to_listen_apple_music'); ?>" target="_blank"><i class="fab fa-itunes"></i> Listen On Apple Music</a></p>
+                    <p class = "no-padding no-margin"><a href="<?php the_field('where_to_listen_amazon'); ?>" target="_blank"><i class="fab fa-amazon"></i> Buy on Amazon</a></p>
+                    <p class = "no-padding no-margin"><a href="<?php the_field('where_to_listen_youtube'); ?>" target="_blank"><i class="fab fa-youtube"></i> Watch on Youtube</a></p>
+                    <p class = "no-padding no-margin"><a href="<?php the_field('where_to_listen_itunes'); ?>" target="_blank"><i class="fab fa-itunes-note"></i> Buy On iTunes</a></p>
+                    <p class = "no-padding no-margin"><a href="<?php the_field('where_to_listen_google_play'); ?>" target="_blank"><i class="fab fa-google-play"></i> Listen on Google Play</a></p>
                 </div>
             </div>
         </div>
