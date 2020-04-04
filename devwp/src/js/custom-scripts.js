@@ -9,10 +9,10 @@ function myFunction() {
 
 
 
-window.addEventListener('load', function () {
+document.addEventListener('DOMContentLoaded', function(event) {
 // variables
 var countdown = document.getElementById('countdown');
-var endDate = countdown.dataset.date || '2020-04-09';
+var endDate = countdown.dataset.date || '2020-04-10';
 var endTime = countdown.dataset.time || '00:00:00';
 var endCountdown = new Date(endDate + 'T' + endTime);
 var timer;
