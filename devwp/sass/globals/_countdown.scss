@@ -1,0 +1,23 @@
+#countdown p {
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 2rem;
+}
+#countdown .canvas-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+  max-width: 440px;
+  margin: 0 auto;
+}
+
+@media (max-width:500px){
+  #countdown .canvas-container {
+    max-width: 220px;
+  }
+
+  #countdown canvas:nth-child(-n+2) {
+    margin-bottom: 10px;
+  }
+}
