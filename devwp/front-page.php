@@ -1,94 +1,53 @@
 <?php
 /**
- * Template Name: Front Page
+ * Template Name: Landing
  *
- * The Frontpage of the Yestau Theme
  *
- * @link https://developer.wordpress.org/themes/basics/template-hierarchy/
+ * @link https://codex.wordpress.org/Template_Hierarchy
+ *
  *
  * @package WordPress
- * @subpackage Yestau
+ * @subpackage Dalemyn
  * @since 1.0.0
  */
 
 get_header(); ?>
 
-    <video src="<?php the_field('video_background'); ?>" autoplay loop playsinline muted></video>
-
-    <div class="viewport-header">
-        <h1 class = "hero-header"><?php the_field('site_title'); ?></h1>
-    </div>
-
-<div class="full-width dark-background">
-    <div class = "grid-container full-width">
-        <div class="grid-x grid-padding-x">
-            <div class="small-12 large-10 large-offset-1 cell">
-                <p class="featured-paragraph center"><?php the_field('featured_paragraph'); ?></p>
-                <div class="buttons">
-                    <a href = "<?php the_field('button_link'); ?>">
-                        <button class="btn-hover color-1"><?php the_field('button_text'); ?></button>
-                    </a>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-
-
-<div class="full-width main-background">
-    <div class = "grid-container ">
-        <div class="grid-x grid-padding-x padding-outer">
-            <div class="large-12 cell">
-                <div class="image-banner rounded" style = "background: url(https://foothillscollective.com/wp-content/uploads/2020/02/New-Album-Background.jpg);background-position: center center;background-repeat: no-repeat;background-attachment: scroll;background-size: cover;">
-
-                    <div class = "content-middle">
-                        <h2 class = "text-overlay center"><?php the_field('top_featured_image_text_line_1'); ?></h2>
-                        <h3 class = "text-overlay center"><?php the_field('top_featured_image_text_line_2'); ?></h3>
-                    </div>
-                </div>
-            </div>
-            <div class="small-12 medium-6 cell">
-                <a href="<?php the_field('left_image_link_image_link'); ?>">
-                    <div class="image-banner rounded" style = "background: url(<?php the_field('left_image_link_background'); ?>);background-position: center center;background-repeat: no-repeat;background-attachment: scroll;background-size: cover;">
-                        <div class = "content-middle">
-                            <h2 class = "text-overlay uppercase center"><?php the_field('left_image_link_text_line_1'); ?></h2>
-                            <p class = "text-overlay-p center"><?php the_field('left_image_link_text_line_2'); ?></p>
-                            <div class="arrow bounce">
-                                <div class="fa fa-arrow-down fa-2x"></div>
+    <div class="full-width gradient-background">
+        <div class = "grid-container content-middle-medium">
+            <div class="grid-x grid-padding-x padding-outer">
+                <div class="small-12 medium-8 medium-order-2 large-6 large-order-2 cell relative">
+                    <div class="content-middle-large">
+                        <div id="countdown" data-date="2020-04-10" data-time="00:00:01">
+                            <h1 class = "center">Life to the Lion</h1>
+                            <h3 class="center padding-outer dark-color-invert">Foothills Collective's Debut Album</h3>
+                            <div class="canvas-container">
+                                <canvas id="days"></canvas>
+                                <canvas id="hours"></canvas>
+                                <canvas id="minutes"></canvas>
+                                <canvas id="seconds"></canvas>
                             </div>
                         </div>
-                    </div>
-                </a>
-            </div>
-            <div class="small-12 medium-6 cell">
-                <a href="<?php the_field('right_image_link_image_link'); ?>">
-                    <div class="image-banner rounded" style = "background: url(<?php the_field('right_image_link_background'); ?>);background-position: center center;background-repeat: no-repeat;background-attachment: scroll;background-size: cover;">
-                        <div class = "content-middle">
-                            <h2 class = "text-overlay uppercase center"><?php the_field('right_image_link_text_line_1'); ?></h2>
-                            <p class = "text-overlay-p center"><?php the_field('right_image_link_text_line_2'); ?></p>
-                            <div class="arrow bounce">
-                                <div class="fa fa-arrow-down fa-2x"></div>
-                            </div>
-                        </div>
-                    </div>
-                </a>
-            </div>
-
-            <div class="small-12 cell">
-                <div class="image-banner-large rounded" style = "background: url(<?php the_field('bottom_featured_image_background'); ?>);background-position: center center;background-repeat: no-repeat;background-attachment: scroll;background-size: cover;">
-                    <div class = "content-middle">
-                        <h2 class = "text-overlay center"><?php the_field('bottom_featured_image_text_line_1'); ?></h2>
                         <div class="buttons center">
-                            <a href = "<?php the_field('bottom_featured_image_button_link'); ?>">
-                                <button class="btn-hover color-1"><?php the_field('bottom_featured_image_button_text'); ?></button>
+                            <a href = "https://foothills-church-shop.myshopify.com/products/life-to-the-lion-album?variant=32580850712664">
+                                <button class="btn-hover color-1">Early Exclusive CD</button>
+                            </a>
+                            <a href = "https://foothillscollective.com/homepage">
+                                <button class="btn-hover color-3">Continue to Site</button>
                             </a>
                         </div>
                     </div>
                 </div>
+                <div class="small-12 medium-4 large-6 large-order-1 cell">
+                    <img src="https://foothillscollective.com/wp-content/uploads/2020/04/Life-to-the-Lion.jpg" alt="">
+                </div>
             </div>
         </div>
     </div>
-</div>
+
+
+
+
 
 
 <?php get_footer();
