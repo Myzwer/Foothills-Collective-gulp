@@ -7,7 +7,7 @@
  * @link https://developer.wordpress.org/themes/basics/template-hierarchy/
  *
  * @package WordPress
- * @subpackage Yestau
+ * @subpackage Dalemyn
  * @since 1.0.0
  */
 
@@ -39,7 +39,7 @@ get_header(); ?>
         <div class = "grid-container ">
             <div class="grid-x grid-padding-x padding-outer">
                 <div class="large-12 cell">
-                    <div class="image-banner rounded" style = "background: url(https://foothillscollective.com/wp-content/uploads/2020/02/New-Album-Background.jpg);background-position: center center;background-repeat: no-repeat;background-attachment: scroll;background-size: cover;">
+                    <div class="image-banner rounded" style = "background: url(<?php the_field('top_featured_image_background_1'); ?>);background-position: center center;background-repeat: no-repeat;background-attachment: scroll;background-size: cover;">
 
                         <div class = "content-middle">
                             <h2 class = "text-overlay center"><?php the_field('top_featured_image_text_line_1'); ?></h2>

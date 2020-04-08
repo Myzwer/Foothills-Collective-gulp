@@ -2,13 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="053c30ea-41d6-43a4-9236-366eb4cc3d4d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/devwp/resource-album.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/devwp/sass/media/_images.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/devwp/dist/css/main.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/dist/css/main.min.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/devwp/dist/css/maps/main.min.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/dist/css/maps/main.min.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/devwp/dist/js/devwp.js" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/dist/js/devwp.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/devwp/front-page.php" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/front-page.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/devwp/live.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/devwp/homepage.php" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/homepage.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/devwp/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/main.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/devwp/sass/grid/_overrides.scss" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/sass/grid/_overrides.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/devwp/sass/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/sass/main.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/devwp/src/js/custom-scripts.js" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/src/js/custom-scripts.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -96,7 +100,7 @@
       <workItem from="1583847563910" duration="1183000" />
       <workItem from="1584274020180" duration="3551000" />
       <workItem from="1585959015102" duration="16306000" />
-      <workItem from="1586287408210" duration="939000" />
+      <workItem from="1586287408210" duration="5330000" />
     </task>
     <servers />
   </component>
@@ -112,21 +116,21 @@
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="0" y="23" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.23.1440.877@0.23.1440.877" timestamp="1579583980761" />
-    <state x="538" y="381" key="NewPhpFileDialog" timestamp="1585977633310">
+    <state x="538" y="381" key="NewPhpFileDialog" timestamp="1586389274521">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="4077" y="454" key="NewPhpFileDialog/0.23.1440.877/3360.23.1920.1057/1440.23.1920.1057@3360.23.1920.1057" timestamp="1582751223025" />
-    <state x="538" y="381" key="NewPhpFileDialog/0.23.1440.877@0.23.1440.877" timestamp="1585977633310" />
+    <state x="538" y="381" key="NewPhpFileDialog/0.23.1440.877@0.23.1440.877" timestamp="1586389274521" />
     <state x="3919" y="374" key="com.intellij.ide.util.TipDialog" timestamp="1583847610442">
       <screen x="3360" y="23" width="1920" height="1057" />
     </state>
     <state x="3919" y="374" key="com.intellij.ide.util.TipDialog/0.23.1440.877/3360.23.1920.1057/1440.23.1920.1057@3360.23.1920.1057" timestamp="1583847610442" />
     <state x="419" y="314" key="com.intellij.ide.util.TipDialog/0.23.1440.877@0.23.1440.877" timestamp="1581967344874" />
-    <state x="3869" y="251" width="894" height="815" key="search.everywhere.popup" timestamp="1582149592009">
-      <screen x="3360" y="23" width="1920" height="1057" />
+    <state x="382" y="212" width="670" height="676" key="search.everywhere.popup" timestamp="1586360113835">
+      <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="3869" y="251" width="894" height="815" key="search.everywhere.popup/0.23.1440.877/3360.23.1920.1057/1440.23.1920.1057@3360.23.1920.1057" timestamp="1582149592009" />
-    <state x="382" y="212" width="670" height="676" key="search.everywhere.popup/0.23.1440.877@0.23.1440.877" timestamp="1580885562204" />
+    <state x="382" y="212" width="670" height="676" key="search.everywhere.popup/0.23.1440.877@0.23.1440.877" timestamp="1586360113835" />
     <state x="470" y="400" key="vcs.readOnlyHandler.ReadOnlyStatusDialog" timestamp="1579837112442">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
