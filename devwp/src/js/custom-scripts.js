@@ -8,6 +8,18 @@ function myFunction() {
 }
 
 
+// This is the php for the countdown for future reference
+// <div id="countdown" data-date="2020-04-10" data-time="00:00:01">
+// <h1 class = "center">Life to the Lion</h1>
+// <h3 class="center padding-outer dark-color-invert">Foothills Collective's Debut Album</h3>
+// <div class="canvas-container">
+// <canvas id="days"></canvas>
+// <canvas id="hours"></canvas>
+// <canvas id="minutes"></canvas>
+// <canvas id="seconds"></canvas>
+// </div>
+// </div>
+
 
 document.addEventListener('DOMContentLoaded', function(event) {
 // variables
