@@ -7,9 +7,9 @@
       <change beforePath="$PROJECT_DIR$/devwp/dist/css/maps/main.min.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/dist/css/maps/main.min.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/devwp/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/main.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/devwp/resource-album.php" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/resource-album.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/devwp/sass/globals/_backgrounds.scss" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/sass/globals/_backgrounds.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/devwp/sass/globals/_typography.scss" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/sass/globals/_typography.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/devwp/sass/grid/_overrides.scss" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/sass/grid/_overrides.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/devwp/src/js/custom-scripts.js" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/src/js/custom-scripts.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -96,7 +96,7 @@
       <workItem from="1583847563910" duration="1183000" />
       <workItem from="1584274020180" duration="3551000" />
       <workItem from="1585959015102" duration="16306000" />
-      <workItem from="1586287408210" duration="14340000" />
+      <workItem from="1586287408210" duration="24606000" />
     </task>
     <servers />
   </component>
@@ -112,6 +112,10 @@
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="0" y="23" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.23.1440.877@0.23.1440.877" timestamp="1579583980761" />
+    <state x="469" y="193" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1586468535697">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="469" y="193" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1440.877@0.23.1440.877" timestamp="1586468535697" />
     <state x="538" y="381" key="NewPhpFileDialog" timestamp="1586389274521">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
@@ -122,6 +126,10 @@
     </state>
     <state x="3919" y="374" key="com.intellij.ide.util.TipDialog/0.23.1440.877/3360.23.1920.1057/1440.23.1920.1057@3360.23.1920.1057" timestamp="1583847610442" />
     <state x="419" y="314" key="com.intellij.ide.util.TipDialog/0.23.1440.877@0.23.1440.877" timestamp="1581967344874" />
+    <state x="397" y="196" width="667" height="486" key="find.popup" timestamp="1586467897171">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="397" y="196" width="667" height="486" key="find.popup/0.23.1440.877@0.23.1440.877" timestamp="1586467897171" />
     <state x="382" y="212" width="670" height="676" key="search.everywhere.popup" timestamp="1586414833524">
       <screen x="0" y="23" width="1440" height="877" />
     </state>

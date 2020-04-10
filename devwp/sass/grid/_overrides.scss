@@ -10,8 +10,13 @@
   padding-bottom: 15px;
 }
 
+
 .rounded {
   border-radius: 8px;
+}
+
+.padding-top-only-2 {
+  padding-top: 30px;
 }
 
 
@@ -55,5 +60,14 @@ body {
 //go fix this when there isn't an album coming out later. This pulls the text on the album page up a bit.
 .margin-pull {
   margin-top: -50px;
+}
+
+
+.float-right {
+  float:right;
+}
+
+.float-left {
+  float:left;
 }
 

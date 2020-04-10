@@ -49,11 +49,45 @@ get_header(); ?>
         </div>
 
         <div class = "grid-container">
-            <div class="grid-x grid-padding-x padding-outer">
+            <div class="grid-x grid-padding-x grid-margin-x padding-outer">
                 <div class="small-12 cell">
                     <h2 class = "uppercase">Track List</h2>
-                    <hr>
+                    <hr class = "no-margin">
                 </div>
+
+                <div class="small-12 cell">
+                    <span class = "float-left">
+                        <h4 class = "uppercase padding-top-only-2">1. // Something New Something Now</h4>
+                    </span>
+                    <span class = "float-right padding-outer">
+                        <button class="btn-hover color-1 no-margin" type="button" data-toggle="example-dropdown">Resources</button>
+                    </span>
+                    <div class="dropdown-pane" id="example-dropdown" data-dropdown data-auto-focus="true">
+                        <p class = "no-padding no-margin"><a href="<?php the_field('where_to_listen_amazon'); ?>" target="_blank"><i class="fas fa-download"></i> Lyric Chart</a></p>
+                        <p class = "no-padding no-margin"><a href="<?php the_field('where_to_listen_youtube'); ?>" target="_blank"><i class="fas fa-download"></i> Chord Chart</a></p>
+                        <p class = "no-padding no-margin"><a href="<?php the_field('where_to_listen_itunes'); ?>" target="_blank"><i class="fas fa-download"></i> Number Chart</a></p>
+                        <p class = "no-padding no-margin"><a href="<?php the_field('where_to_listen_google_play'); ?>" target="_blank"><i class="fas fa-download"></i> Multitracks</a></p>
+                    </div>
+                    <hr class = "no-margin">
+                </div>
+
+                <div class="small-12 cell">
+                    <span class = "float-left">
+                        <h4 class = "uppercase padding-top-only-2">1. // All Authority</h4>
+                    </span>
+                    <span class = "float-right padding-outer">
+                        <button class="btn-hover color-1 no-margin" type="button" data-toggle="example-dropdown">Resources</button>
+                    </span>
+                    <div class="dropdown-pane" id="example-dropdown" data-dropdown data-auto-focus="true">
+                        <p class = "no-padding no-margin"><a href="<?php the_field('where_to_listen_amazon'); ?>" target="_blank"><i class="fas fa-download"></i> Lyric Chart</a></p>
+                        <p class = "no-padding no-margin"><a href="<?php the_field('where_to_listen_youtube'); ?>" target="_blank"><i class="fas fa-download"></i> Chord Chart</a></p>
+                        <p class = "no-padding no-margin"><a href="<?php the_field('where_to_listen_itunes'); ?>" target="_blank"><i class="fas fa-download"></i> Number Chart</a></p>
+                        <p class = "no-padding no-margin"><a href="<?php the_field('where_to_listen_google_play'); ?>" target="_blank"><i class="fas fa-download"></i> Multitracks</a></p>
+                    </div>
+                    <hr class = "no-margin">
+                </div>
+
+
             </div>
         </div>
     </div>
