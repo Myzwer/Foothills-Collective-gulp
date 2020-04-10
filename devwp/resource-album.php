@@ -66,7 +66,7 @@ get_header(); ?>
                         <p class = "no-padding no-margin pink-link"><a href="https://foothillscollective.com/wp-content/uploads/2020/04/Life-to-the-Lion-Lyrics.pdf" target="_blank"><i class="fas fa-download"></i> Lyric Chart</a></p>
                         <p class = "no-padding no-margin"><a href="https://foothillscollective.com/wp-content/uploads/2020/04/Life-to-the-Lion-Chord-Chart.pdf" target="_blank"><i class="fas fa-download"></i> Chord Chart</a></p>
                         <p class = "no-padding no-margin pink-link"><a href="https://foothillscollective.com/wp-content/uploads/2020/04/Life-to-the-Lion-Chart.pdf" target="_blank"><i class="fas fa-download"></i> Number Chart</a></p>
-                        <p class = "no-padding no-margin"><a href="https://www.multitracks.com/search/albums?albumID=3358" target="_blank"><i class="fas fa-external-link-alt"></i> Multitracks</a></p>
+                        <p class = "no-padding no-margin"><a href="https://www.multitracks.com/artists/Foothills-Collective/" target="_blank"><i class="fas fa-external-link-alt"></i> Multitracks</a></p>
                     </div>
                     <hr class = "no-margin">
                 </div>
@@ -82,7 +82,7 @@ get_header(); ?>
                         <p class = "no-padding no-margin pink-link"><a href="https://foothillscollective.com/wp-content/uploads/2020/03/Revival-Here_Lyrics.pdf" target="_blank"><i class="fas fa-download"></i> Lyric Chart</a></p>
                         <p class = "no-padding no-margin"><a href="https://foothillscollective.com/wp-content/uploads/2020/03/Revival-Here-Chord-Chart-1.pdf" target="_blank"><i class="fas fa-download"></i> Chord Chart</a></p>
                         <p class = "no-padding no-margin pink-link"><a href="#" target="_blank"><i class="fas fa-download"></i> Number Chart</a></p>
-                        <p class = "no-padding no-margin"><a href="https://www.multitracks.com/search/albums?albumID=3358" target="_blank"><i class="fas fa-external-link-alt"></i> Multitracks</a></p>
+                        <p class = "no-padding no-margin"><a href="https://www.multitracks.com/artists/Foothills-Collective/" target="_blank"><i class="fas fa-external-link-alt"></i> Multitracks</a></p>
                     </div>
                     <hr class = "no-margin">
                 </div>
@@ -98,7 +98,7 @@ get_header(); ?>
                         <p class = "no-padding no-margin pink-link"><a href="https://foothillscollective.com/wp-content/uploads/2020/04/Im-Forever-Free-Lyrics.pdf" target="_blank"><i class="fas fa-download"></i> Lyric Chart</a></p>
                         <p class = "no-padding no-margin"><a href="https://foothillscollective.com/wp-content/uploads/2020/04/Im-Forever-Free-Chord-Chart.pdf" target="_blank"><i class="fas fa-download"></i> Chord Chart</a></p>
                         <p class = "no-padding no-margin pink-link"><a href="https://foothillscollective.com/wp-content/uploads/2020/04/Im-Forever-Free-Number-Chart.pdf" target="_blank"><i class="fas fa-download"></i> Number Chart</a></p>
-                        <p class = "no-padding no-margin"><a href="https://www.multitracks.com/search/albums?albumID=3358" target="_blank"><i class="fas fa-external-link-alt"></i> Multitracks</a></p>
+                        <p class = "no-padding no-margin"><a href="https://www.multitracks.com/artists/Foothills-Collective/" target="_blank"><i class="fas fa-external-link-alt"></i> Multitracks</a></p>
                     </div>
                     <hr class = "no-margin">
                 </div>
@@ -114,7 +114,7 @@ get_header(); ?>
                         <p class = "no-padding no-margin pink-link"><a href="https://foothillscollective.com/wp-content/uploads/2020/04/Forward-Lyrics.pdf" target="_blank"><i class="fas fa-download"></i> Lyric Chart</a></p>
                         <p class = "no-padding no-margin"><a href="https://foothillscollective.com/wp-content/uploads/2020/04/Forward-Chord-Chart.pdf" target="_blank"><i class="fas fa-download"></i> Chord Chart</a></p>
                         <p class = "no-padding no-margin pink-link"><a href="https://foothillscollective.com/wp-content/uploads/2020/04/Forward-Chart.pdf" target="_blank"><i class="fas fa-download"></i> Number Chart</a></p>
-                        <p class = "no-padding no-margin"><a href="https://www.multitracks.com/search/albums?albumID=3358" target="_blank"><i class="fas fa-external-link-alt"></i> Multitracks</a></p>
+                        <p class = "no-padding no-margin"><a href="https://www.multitracks.com/artists/Foothills-Collective/" target="_blank"><i class="fas fa-external-link-alt"></i> Multitracks</a></p>
                     </div>
                     <hr class = "no-margin">
                 </div>
@@ -130,7 +130,7 @@ get_header(); ?>
                         <p class = "no-padding no-margin pink-link"><a href="https://foothillscollective.com/wp-content/uploads/2020/03/Over-and-Over-Lyrics-1.pdf" target="_blank"><i class="fas fa-download"></i> Lyric Chart</a></p>
                         <p class = "no-padding no-margin"><a href="https://foothillscollective.com/wp-content/uploads/2020/03/Over-and-Over-Chord-Chart.pdf" target="_blank"><i class="fas fa-download"></i> Chord Chart</a></p>
                         <p class = "no-padding no-margin pink-link"><a href="https://foothillscollective.com/wp-content/uploads/2020/03/Over-and-Over-Chart.pdf" target="_blank"><i class="fas fa-download"></i> Number Chart</a></p>
-                        <p class = "no-padding no-margin"><a href="https://www.multitracks.com/search/albums?albumID=3358" target="_blank"><i class="fas fa-external-link-alt"></i> Multitracks</a></p>
+                        <p class = "no-padding no-margin"><a href="https://www.multitracks.com/artists/Foothills-Collective/" target="_blank"><i class="fas fa-external-link-alt"></i> Multitracks</a></p>
                     </div>
                     <hr class = "no-margin">
                 </div>
@@ -146,7 +146,7 @@ get_header(); ?>
                         <p class = "no-padding no-margin pink-link"><a href="https://foothillscollective.com/wp-content/uploads/2020/04/Love-Runs-Deep-Lyrics.pdf" target="_blank"><i class="fas fa-download"></i> Lyric Chart</a></p>
                         <p class = "no-padding no-margin"><a href="https://foothillscollective.com/wp-content/uploads/2020/04/Love-Runs-Deep-Chord-Chart.pdf" target="_blank"><i class="fas fa-download"></i> Chord Chart</a></p>
                         <p class = "no-padding no-margin pink-link"><a href="https://foothillscollective.com/wp-content/uploads/2020/04/Love-Runs-Deep-Number-Chart.pdf" target="_blank"><i class="fas fa-download"></i> Number Chart</a></p>
-                        <p class = "no-padding no-margin"><a href="https://www.multitracks.com/search/albums?albumID=3358" target="_blank"><i class="fas fa-external-link-alt"></i> Multitracks</a></p>
+                        <p class = "no-padding no-margin"><a href="https://www.multitracks.com/artists/Foothills-Collective/" target="_blank"><i class="fas fa-external-link-alt"></i> Multitracks</a></p>
                     </div>
                     <hr class = "no-margin">
                 </div>
@@ -162,7 +162,7 @@ get_header(); ?>
                         <p class = "no-padding no-margin pink-link"><a href="https://foothillscollective.com/wp-content/uploads/2020/04/All-Authority-Lyrics.pdf" target="_blank"><i class="fas fa-download"></i> Lyric Chart</a></p>
                         <p class = "no-padding no-margin"><a href="https://foothillscollective.com/wp-content/uploads/2020/04/All-Authority-Chord-Chart.pdf" target="_blank"><i class="fas fa-download"></i> Chord Chart</a></p>
                         <p class = "no-padding no-margin pink-link"><a href="https://foothillscollective.com/wp-content/uploads/2020/04/All-Authority-Chart.pdf" target="_blank"><i class="fas fa-download"></i> Number Chart</a></p>
-                        <p class = "no-padding no-margin"><a href="https://www.multitracks.com/search/albums?albumID=3358" target="_blank"><i class="fas fa-external-link-alt"></i> Multitracks</a></p>
+                        <p class = "no-padding no-margin"><a href="https://www.multitracks.com/artists/Foothills-Collective/" target="_blank"><i class="fas fa-external-link-alt"></i> Multitracks</a></p>
                     </div>
                     <hr class = "no-margin">
                 </div>
@@ -191,7 +191,7 @@ get_header(); ?>
                         <p class = "no-padding no-margin pink-link"><a href="https://foothillscollective.com/wp-content/uploads/2020/04/Place-of-Peace-Lyrics.pdf" target="_blank"><i class="fas fa-download"></i> Lyric Chart</a></p>
                         <p class = "no-padding no-margin"><a href="https://foothillscollective.com/wp-content/uploads/2020/04/Place-of-Peace-Chord-Chart.pdf" target="_blank"><i class="fas fa-download"></i> Chord Chart</a></p>
                         <p class = "no-padding no-margin pink-link"><a href="https://foothillscollective.com/wp-content/uploads/2020/04/Place-of-Peace-Number-Chart.pdf" target="_blank"><i class="fas fa-download"></i> Number Chart</a></p>
-                        <p class = "no-padding no-margin"><a href="https://www.multitracks.com/search/albums?albumID=3358" target="_blank"><i class="fas fa-external-link-alt"></i> Multitracks</a></p>
+                        <p class = "no-padding no-margin"><a href="https://www.multitracks.com/artists/Foothills-Collective/" target="_blank"><i class="fas fa-external-link-alt"></i> Multitracks</a></p>
                     </div>
                     <hr class = "no-margin">
                 </div>
@@ -208,7 +208,7 @@ get_header(); ?>
                         <p class = "no-padding no-margin pink-link"><a href="https://foothillscollective.com/wp-content/uploads/2020/04/Something-New-Something-Now-Lyrics.pdf" target="_blank"><i class="fas fa-download"></i> Lyric Chart</a></p>
                         <p class = "no-padding no-margin"><a href="https://foothillscollective.com/wp-content/uploads/2020/04/Something-New-Something-Now-Chord-Chart.pdf" target="_blank"><i class="fas fa-download"></i> Chord Chart</a></p>
                         <p class = "no-padding no-margin pink-link"><a href="https://foothillscollective.com/wp-content/uploads/2020/04/Something-New-Something-Now-Chart.pdf" target="_blank"><i class="fas fa-download"></i> Number Chart</a></p>
-                        <p class = "no-padding no-margin"><a href="https://www.multitracks.com/search/albums?albumID=3358" target="_blank"><i class="fas fa-external-link-alt"></i> Multitracks</a></p>
+                        <p class = "no-padding no-margin"><a href="https://www.multitracks.com/artists/Foothills-Collective/" target="_blank"><i class="fas fa-external-link-alt"></i> Multitracks</a></p>
                     </div>
                     <hr class = "no-margin">
                 </div>

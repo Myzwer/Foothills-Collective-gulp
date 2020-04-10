@@ -14,8 +14,11 @@
 <head>
 <meta charset="<?php bloginfo( 'charset' ); ?>">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
     <title>Foothills Collective</title>
 <link rel="profile" href="http://gmpg.org/xfn/11">
+    <link rel="shortcut icon" href="<?php echo get_stylesheet_directory_uri(); ?>/favicon.ico" />
     <script src="https://kit.fontawesome.com/aa36ddf53c.js" crossorigin="anonymous"></script>
 <?php wp_head(); ?>
 </head>
