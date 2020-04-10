@@ -63,11 +63,23 @@ body {
 }
 
 
-.float-right {
-  float:right;
+// Float left and right are already used by foundation, and they have the !important tag with them. This is meant to be a softer version of that only applies on medium and up
+//yeah...i know. Site goes live in 2 hours. This is a mobile fix.
+.float-right-soft {
+  float: left;
 }
 
-.float-left {
-  float:left;
+@media screen and (min-width: 40em) {
+  .float-right-soft {
+    float: right;
+  }
 }
+
+@media screen and (min-width: 40em) {
+  .float-left-soft {
+    float: left;
+  }
+}
+
+
 

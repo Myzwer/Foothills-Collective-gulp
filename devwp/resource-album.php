@@ -35,15 +35,15 @@ get_header(); ?>
                     <hr>
 
                     <h4 class = "no-padding no-margin" >Where to Listen</h4>
-                    <p class = "no-padding no-margin"><a href="<?php the_field('where_to_listen_spotify'); ?>" target="_blank"><i class="fab fa-spotify"></i> Listen On Spotify</a></p>
-                    <p class = "no-padding no-margin"><a href="<?php the_field('where_to_listen_apple_music'); ?>" target="_blank"><i class="fab fa-itunes"></i> Listen On Apple Music</a></p>
-                    <p class = "no-padding no-margin"><a href="<?php the_field('where_to_listen_amazon'); ?>" target="_blank"><i class="fab fa-amazon"></i> Buy on Amazon</a></p>
-                    <p class = "no-padding no-margin"><a href="<?php the_field('where_to_listen_youtube'); ?>" target="_blank"><i class="fab fa-youtube"></i> Watch on Youtube</a></p>
-                    <p class = "no-padding no-margin"><a href="<?php the_field('where_to_listen_itunes'); ?>" target="_blank"><i class="fab fa-itunes-note"></i> Buy On iTunes</a></p>
-                    <p class = "no-padding no-margin"><a href="<?php the_field('where_to_listen_google_play'); ?>" target="_blank"><i class="fab fa-google-play"></i> Listen on Google Play</a></p>
+                    <p class = "no-padding no-margin"><a href="#" target="_blank"><i class="fab fa-spotify"></i> Listen On Spotify</a></p>
+                    <p class = "no-padding no-margin"><a href="#" target="_blank"><i class="fab fa-itunes"></i> Listen On Apple Music</a></p>
+                    <p class = "no-padding no-margin"><a href="#" target="_blank"><i class="fab fa-amazon"></i> Buy on Amazon</a></p>
+                    <p class = "no-padding no-margin"><a href="#" target="_blank"><i class="fab fa-youtube"></i> Watch on Youtube</a></p>
+                    <p class = "no-padding no-margin"><a href="#" target="_blank"><i class="fab fa-itunes-note"></i> Buy On iTunes</a></p>
+                    <p class = "no-padding no-margin"><a href="#" target="_blank"><i class="fab fa-google-play"></i> Listen on Google Play</a></p>
 
                     <h4 class = "no-padding no-margin margin-top-only">Release Year</h4>
-                    <p class = "capitalize no-padding"><?php the_field('release_year'); ?></p>
+                    <p class = "capitalize no-padding">2020</p>
                 </div>
             </div>
         </div>
@@ -56,36 +56,23 @@ get_header(); ?>
                 </div>
 
                 <div class="small-12 cell">
-                    <span class = "float-left">
-                        <h4 class = "uppercase padding-top-only-2">1. // Something New Something Now</h4>
+                    <span class = "float-left-soft">
+                        <h4 class = "uppercase padding-top-only-2">1 // Life to the lion</h4>
                     </span>
-                    <span class = "float-right padding-outer">
+                    <span class = "float-right-soft padding-outer">
                         <button class="btn-hover color-1 no-margin" type="button" data-toggle="example-dropdown">Resources</button>
                     </span>
                     <div class="dropdown-pane" id="example-dropdown" data-dropdown data-auto-focus="true">
-                        <p class = "no-padding no-margin"><a href="<?php the_field('where_to_listen_amazon'); ?>" target="_blank"><i class="fas fa-download"></i> Lyric Chart</a></p>
-                        <p class = "no-padding no-margin"><a href="<?php the_field('where_to_listen_youtube'); ?>" target="_blank"><i class="fas fa-download"></i> Chord Chart</a></p>
-                        <p class = "no-padding no-margin"><a href="<?php the_field('where_to_listen_itunes'); ?>" target="_blank"><i class="fas fa-download"></i> Number Chart</a></p>
-                        <p class = "no-padding no-margin"><a href="<?php the_field('where_to_listen_google_play'); ?>" target="_blank"><i class="fas fa-download"></i> Multitracks</a></p>
+                        <p class = "no-padding no-margin pink-link"><a href="#" target="_blank"><i class="fas fa-download"></i> Lyric Chart</a></p>
+                        <p class = "no-padding no-margin"><a href="#" target="_blank"><i class="fas fa-download"></i> Chord Chart</a></p>
+                        <p class = "no-padding no-margin pink-link"><a href="#" target="_blank"><i class="fas fa-download"></i> Number Chart</a></p>
+                        <p class = "no-padding no-margin"><a href="https://www.multitracks.com/search/albums?albumID=3358" target="_blank"><i class="fas fa-external-link-alt"></i> Multitracks</a></p>
                     </div>
                     <hr class = "no-margin">
                 </div>
 
-                <div class="small-12 cell">
-                    <span class = "float-left">
-                        <h4 class = "uppercase padding-top-only-2">1. // All Authority</h4>
-                    </span>
-                    <span class = "float-right padding-outer">
-                        <button class="btn-hover color-1 no-margin" type="button" data-toggle="example-dropdown">Resources</button>
-                    </span>
-                    <div class="dropdown-pane" id="example-dropdown" data-dropdown data-auto-focus="true">
-                        <p class = "no-padding no-margin"><a href="<?php the_field('where_to_listen_amazon'); ?>" target="_blank"><i class="fas fa-download"></i> Lyric Chart</a></p>
-                        <p class = "no-padding no-margin"><a href="<?php the_field('where_to_listen_youtube'); ?>" target="_blank"><i class="fas fa-download"></i> Chord Chart</a></p>
-                        <p class = "no-padding no-margin"><a href="<?php the_field('where_to_listen_itunes'); ?>" target="_blank"><i class="fas fa-download"></i> Number Chart</a></p>
-                        <p class = "no-padding no-margin"><a href="<?php the_field('where_to_listen_google_play'); ?>" target="_blank"><i class="fas fa-download"></i> Multitracks</a></p>
-                    </div>
-                    <hr class = "no-margin">
-                </div>
+
+
 
 
             </div>

@@ -9,7 +9,6 @@
       <change beforePath="$PROJECT_DIR$/devwp/resource-album.php" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/resource-album.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/devwp/sass/globals/_typography.scss" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/sass/globals/_typography.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/devwp/sass/grid/_overrides.scss" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/sass/grid/_overrides.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/devwp/src/js/custom-scripts.js" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/src/js/custom-scripts.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -96,7 +95,7 @@
       <workItem from="1583847563910" duration="1183000" />
       <workItem from="1584274020180" duration="3551000" />
       <workItem from="1585959015102" duration="16306000" />
-      <workItem from="1586287408210" duration="24606000" />
+      <workItem from="1586287408210" duration="27590000" />
     </task>
     <servers />
   </component>
