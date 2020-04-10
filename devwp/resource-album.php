@@ -14,7 +14,7 @@
 get_header(); ?>
 
 
-    <video src="https://foothillscollective.com/wp-content/uploads/2020/04/Over-and-Over-Web.mp4" autoplay loop playsinline muted></video>
+    <video src="https://foothillscollective.com/wp-content/uploads/2020/04/Life-to-the-Lion-Web.mp4" autoplay loop playsinline muted></video>
 
     <div class="viewport-header">
         <div class="content-middle margin-pull">

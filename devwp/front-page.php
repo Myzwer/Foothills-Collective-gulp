@@ -13,30 +13,26 @@
 
 get_header(); ?>
 
-    <div class="full-width gradient-background">
-        <div class = "grid-container content-middle-medium">
-            <div class="grid-x grid-padding-x padding-outer">
-                <div class="small-12 medium-8 medium-order-2 large-6 large-order-2 cell relative">
-                    <div class="content-middle-large">
-                        <h1 class = "center">Life to the lion</h1>
-                        <h3 class = "center padding-outer dark-color-invert">Available Everywhere Now</h3>
-                        <div class="buttons center">
-                            <a href = "https://foothills-church-shop.myshopify.com/products/life-to-the-lion-album?variant=32580850712664">
-                                <button class="btn-hover color-1">Listen NOW</button>
-                            </a>
-                            <a href = "https://foothillscollective.com/homepage">
-                                <button class="btn-hover color-3">Continue to Site</button>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="small-12 medium-4 large-6 large-order-1 cell">
-                    <div class="album-shadow" style="background-image:url(https://foothillscollective.com/wp-content/uploads/2020/04/Life-to-the-Lion.jpg)">
-                    </div>
-                </div>
+    <video src="https://foothillscollective.com/wp-content/uploads/2020/04/Life-to-the-Lion-Dark.mp4" autoplay loop playsinline muted></video>
+
+    <div class="viewport-header">
+        <div class="content-middle">
+            <div class="mobile-header">
+                <h1 class = "uppercase center hero-header">Life to the Lion</h1>
+                <h2 class = "uppercase dark-color-invert">Foothills Collective's Debut Album</h2>
+                <h3 class = "uppercase dark-color-invert">Available Everywhere Now</h3>
+            </div>
+            <div class="buttons center">
+                <a href = "https://fanlink.to/collective">
+                    <button class="btn-hover color-1">Listen NOW</button>
+                </a>
+                <a href = "https://foothillscollective.com/homepage">
+                    <button class="btn-hover color-3">Continue to Site</button>
+                </a>
             </div>
         </div>
     </div>
+
 
 
 
