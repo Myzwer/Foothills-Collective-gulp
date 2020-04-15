@@ -23,7 +23,7 @@ get_header(); ?>
                 <h3 class = "uppercase dark-color-invert">Available Everywhere Now</h3>
             </div>
             <div class="buttons center">
-                <a href = "https://fanlink.to/collective">
+                <a href = "https://foothillscollective.com/life-to-the-lion">
                     <button class="btn-hover color-1">Listen NOW</button>
                 </a>
                 <a href = "https://foothillscollective.com/homepage">

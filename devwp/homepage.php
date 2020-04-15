@@ -35,17 +35,19 @@ get_header(); ?>
     </div>
 
 
+
     <div class="full-width main-background">
         <div class = "grid-container ">
             <div class="grid-x grid-padding-x padding-outer">
                 <div class="large-12 cell">
-                    <div class="image-banner rounded" style = "background: url(<?php the_field('top_featured_image_background_1'); ?>);background-position: center center;background-repeat: no-repeat;background-attachment: scroll;background-size: cover;">
-
-                        <div class = "content-middle">
-                            <h2 class = "text-overlay center"><?php the_field('top_featured_image_text_line_1'); ?></h2>
-                            <h3 class = "text-overlay center"><?php the_field('top_featured_image_text_line_2'); ?></h3>
+                    <a href="<?php the_field('top_featured_image_image_link'); ?>">
+                        <div class="image-banner rounded" style = "background: url(<?php the_field('top_featured_image_background_1'); ?>);background-position: center center;background-repeat: no-repeat;background-attachment: scroll;background-size: cover;">
+                            <div class = "content-middle">
+                                <h2 class = "text-overlay center">  <?php the_field('top_featured_image_text_line_1'); ?></h2>
+                                <h3 class = "text-overlay center"><?php the_field('top_featured_image_text_line_2'); ?></h3>
+                            </div>
                         </div>
-                    </div>
+                    </a>
                 </div>
                 <div class="small-12 medium-6 cell">
                     <a href="<?php the_field('left_image_link_image_link'); ?>">
@@ -89,6 +91,7 @@ get_header(); ?>
             </div>
         </div>
     </div>
+
 
 
 <?php get_footer();
