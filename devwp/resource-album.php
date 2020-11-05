@@ -14,12 +14,12 @@
 get_header(); ?>
 
 
-    <video src="https://foothillscollective.com/wp-content/uploads/2020/04/Life-to-the-Lion-Web.mp4" autoplay loop playsinline muted></video>
+    <video src="<?php the_field('video_background'); ?>" autoplay loop playsinline muted></video>
 
     <div class="viewport-header">
         <div class="content-middle margin-pull">
-            <h1 class = "uppercase center">Life to the Lion</h1>
-            <h2 class = "uppercase dark-color-invert">Foothills Collective's Debut Album</h2>
+            <h1 class = "uppercase center"><?php the_field('song_title'); ?></h1>
+            <h2 class = "uppercase dark-color-invert"><?php the_field('song_description'); ?></h2>
         </div>
     </div>
 
@@ -28,22 +28,23 @@ get_header(); ?>
         <div class = "grid-container">
             <div class="grid-x grid-padding-x padding-outer">
                 <div class="small-12 medium-6 cell">
-                    <img src="https://foothillscollective.com/wp-content/uploads/2020/04/Life-to-the-Lion.jpg" alt="">
+                    <img src="<?php the_field('album_artwork'); ?>" alt="">
                 </div>
                 <div class="small-12 medium-6 cell">
-                    <h2 class = "uppercase">Life to the Lion</h2>
+                    <h2 class = "uppercase"><?php the_field('song_title'); ?></h2>
+<!--                    use the same song_title from the top for this -->
                     <hr>
 
                     <h4 class = "no-padding no-margin" >Where to Listen</h4>
-                    <p class = "no-padding no-margin"><a href="https://open.spotify.com/album/6923qZBfY9Rl9FImYUBk1p" target="_blank"><i class="fab fa-spotify"></i> Listen On Spotify</a></p>
-                    <p class = "no-padding no-margin"><a href="https://music.apple.com/us/album/life-to-the-lion/1501389557?uo=4&app=music&at=1001lry3&ct=dashboard" target="_blank"><i class="fab fa-itunes"></i> Listen On Apple Music</a></p>
-                    <p class = "no-padding no-margin"><a href="https://www.amazon.com/Life-Lion-Foothills-Collective/dp/B085FPPZ1L/ref=sr_1_5?dchild=1&keywords=foothills+collective&qid=1586269690&s=dmusic&sr=1-5" target="_blank"><i class="fab fa-amazon"></i> Buy on Amazon</a></p>
-                    <p class = "no-padding no-margin"><a href="https://www.youtube.com/channel/UCX_IiZ45InnY5o85cB1i-BA" target="_blank"><i class="fab fa-youtube"></i> Watch on Youtube</a></p>
-                    <p class = "no-padding no-margin"><a href="https://iTunes.apple.com/us/album/life-to-the-lion/1501389557?uo=4&app=itunes&at=1001lry3&ct=dashboard" target="_blank"><i class="fab fa-itunes-note"></i> Buy On iTunes</a></p>
-                    <p class = "no-padding no-margin"><a href="https://play.google.com/store/music/album/Foothills_Collective_Life_to_the_Lion?id=Boxpuf6b2h5i6qo3fhfhpjssmmm" target="_blank"><i class="fab fa-google-play"></i> Listen on Google Play</a></p>
+                    <p class = "no-padding no-margin"><a href="<?php the_field('streaming_links_spotify'); ?>" target="_blank"><i class="fab fa-spotify"></i> Listen On Spotify</a></p>
+                    <p class = "no-padding no-margin"><a href="<?php the_field('streaming_links_apple_music'); ?>" target="_blank"><i class="fab fa-itunes"></i> Listen On Apple Music</a></p>
+                    <p class = "no-padding no-margin"><a href="<?php the_field('streaming_links_amazon'); ?>" target="_blank"><i class="fab fa-amazon"></i> Buy on Amazon</a></p>
+                    <p class = "no-padding no-margin"><a href="<?php the_field('streaming_links_youtube'); ?>" target="_blank"><i class="fab fa-youtube"></i> Watch on Youtube</a></p>
+                    <p class = "no-padding no-margin"><a href="<?php the_field('streaming_links_itunes'); ?>" target="_blank"><i class="fab fa-itunes-note"></i> Buy On iTunes</a></p>
+                    <p class = "no-padding no-margin"><a href="<?php the_field('streaming_links_google_play'); ?>" target="_blank"><i class="fab fa-google-play"></i> Listen on Google Play</a></p>
 
                     <h4 class = "no-padding no-margin margin-top-only">Release Year</h4>
-                    <p class = "capitalize no-padding">2020</p>
+                    <p class = "capitalize no-padding"><?php the_field('release_year'); ?></p>
                 </div>
             </div>
         </div>
@@ -55,164 +56,58 @@ get_header(); ?>
                     <hr class = "no-margin">
                 </div>
 
-                <div class="small-12 cell">
-                    <span class = "float-left-soft">
-                        <h4 class = "uppercase padding-top-only-2">1 // Life to the lion</h4>
-                    </span>
-                    <span class = "float-right-soft padding-outer">
-                        <button class="btn-hover color-1 no-margin" type="button" data-toggle="resource-button-1">Resources</button>
-                    </span>
-                    <div class="dropdown-pane" id="resource-button-1" data-dropdown data-auto-focus="true">
-                        <p class = "no-padding no-margin pink-link"><a href="https://foothillscollective.com/wp-content/uploads/2020/04/Life-to-the-Lion-Lyrics.pdf" target="_blank"><i class="fas fa-download"></i> Lyric Chart</a></p>
-                        <p class = "no-padding no-margin"><a href="https://foothillscollective.com/wp-content/uploads/2020/04/Life-to-the-Lion-Chord-Chart.pdf" target="_blank"><i class="fas fa-download"></i> Chord Chart</a></p>
-                        <p class = "no-padding no-margin pink-link"><a href="https://foothillscollective.com/wp-content/uploads/2020/04/Life-to-the-Lion-Chart.pdf" target="_blank"><i class="fas fa-download"></i> Number Chart</a></p>
-                        <p class = "no-padding no-margin"><a href="https://www.multitracks.com/artists/Foothills-Collective/" target="_blank"><i class="fas fa-external-link-alt"></i> Multitracks</a></p>
-                    </div>
-                    <hr class = "no-margin">
-                </div>
+                <?php
+                // Start the Repeater Loop
+                if( have_rows('track_list') ):
+                    // Begin looping data - all this is normal.
+                    while ( have_rows('track_list') ) : the_row();
+                       echo '<div class="small-12 cell">';
+                            echo '<span class = "float-left-soft">';
+                                echo '<h4 class = "uppercase padding-top-only-2">';
+                                    the_sub_field('song_title');
+                                echo '</h4>';
+                            echo '</span>';
 
-                <div class="small-12 cell">
-                    <span class = "float-left-soft">
-                        <h4 class = "uppercase padding-top-only-2">2 // Revival Here</h4>
-                    </span>
-                    <span class = "float-right-soft padding-outer">
-                        <button class="btn-hover color-1 no-margin" type="button" data-toggle="resource-button-2">Resources</button>
-                    </span>
-                    <div class="dropdown-pane" id="resource-button-2" data-dropdown data-auto-focus="true">
-                        <p class = "no-padding no-margin pink-link"><a href="https://foothillscollective.com/wp-content/uploads/2020/03/Revival-Here_Lyrics.pdf" target="_blank"><i class="fas fa-download"></i> Lyric Chart</a></p>
-                        <p class = "no-padding no-margin"><a href="https://foothillscollective.com/wp-content/uploads/2020/03/Revival-Here-Chord-Chart-1.pdf" target="_blank"><i class="fas fa-download"></i> Chord Chart</a></p>
-                        <p class = "no-padding no-margin pink-link"><a href="#" target="_blank"><i class="fas fa-download"></i> Number Chart</a></p>
-                        <p class = "no-padding no-margin"><a href="https://www.multitracks.com/artists/Foothills-Collective/" target="_blank"><i class="fas fa-external-link-alt"></i> Multitracks</a></p>
-                    </div>
-                    <hr class = "no-margin">
-                </div>
+                            // The actual button, and this is where things fall apart
+                            echo '<span class = "float-right-soft padding-outer">';
+                            // dropping OUT of php to use get_row_index(); which apparently doesn't work unless you weren't in php before.
+                            ?>
 
-                <div class="small-12 cell">
-                    <span class = "float-left-soft">
-                        <h4 class = "uppercase padding-top-only-2">3 // I'm Forever Free</h4>
-                    </span>
-                    <span class = "float-right-soft padding-outer">
-                        <button class="btn-hover color-1 no-margin" type="button" data-toggle="resource-button-3">Resources</button>
-                    </span>
-                    <div class="dropdown-pane" id="resource-button-3" data-dropdown data-auto-focus="true">
-                        <p class = "no-padding no-margin pink-link"><a href="https://foothillscollective.com/wp-content/uploads/2020/04/Im-Forever-Free-Lyrics.pdf" target="_blank"><i class="fas fa-download"></i> Lyric Chart</a></p>
-                        <p class = "no-padding no-margin"><a href="https://foothillscollective.com/wp-content/uploads/2020/04/Im-Forever-Free-Chord-Chart.pdf" target="_blank"><i class="fas fa-download"></i> Chord Chart</a></p>
-                        <p class = "no-padding no-margin pink-link"><a href="https://foothillscollective.com/wp-content/uploads/2020/04/Im-Forever-Free-Number-Chart.pdf" target="_blank"><i class="fas fa-download"></i> Number Chart</a></p>
-                        <p class = "no-padding no-margin"><a href="https://www.multitracks.com/artists/Foothills-Collective/" target="_blank"><i class="fas fa-external-link-alt"></i> Multitracks</a></p>
-                    </div>
-                    <hr class = "no-margin">
-                </div>
+                            <button class="btn-hover color-1 no-margin" type="button" data-toggle="resource-button-<?php echo get_row_index(); ?>">Resources</button>
+                            </span>
+                            <div class="dropdown-pane" id="resource-button-<?php echo get_row_index(); ?>" data-dropdown data-auto-focus="true">
 
-                <div class="small-12 cell">
-                    <span class = "float-left-soft">
-                        <h4 class = "uppercase padding-top-only-2">4 // Forward</h4>
-                    </span>
-                    <span class = "float-right-soft padding-outer">
-                        <button class="btn-hover color-1 no-margin" type="button" data-toggle="resource-button-4">Resources</button>
-                    </span>
-                    <div class="dropdown-pane" id="resource-button-4" data-dropdown data-auto-focus="true">
-                        <p class = "no-padding no-margin pink-link"><a href="https://foothillscollective.com/wp-content/uploads/2020/04/Forward-Lyrics.pdf" target="_blank"><i class="fas fa-download"></i> Lyric Chart</a></p>
-                        <p class = "no-padding no-margin"><a href="https://foothillscollective.com/wp-content/uploads/2020/04/Forward-Chord-Chart.pdf" target="_blank"><i class="fas fa-download"></i> Chord Chart</a></p>
-                        <p class = "no-padding no-margin pink-link"><a href="https://foothillscollective.com/wp-content/uploads/2020/04/Forward-Chart.pdf" target="_blank"><i class="fas fa-download"></i> Number Chart</a></p>
-                        <p class = "no-padding no-margin"><a href="https://www.multitracks.com/artists/Foothills-Collective/" target="_blank"><i class="fas fa-external-link-alt"></i> Multitracks</a></p>
-                    </div>
-                    <hr class = "no-margin">
-                </div>
+                                <?php
+                                //dropping back in for the last half of the repeater, linking the files. Pretty normal from here on out.
 
-                <div class="small-12 cell">
-                    <span class = "float-left-soft">
-                        <h4 class = "uppercase padding-top-only-2">5 // Over and Over</h4>
-                    </span>
-                    <span class = "float-right-soft padding-outer">
-                        <button class="btn-hover color-1 no-margin" type="button" data-toggle="resource-button-5">Resources</button>
-                    </span>
-                    <div class="dropdown-pane" id="resource-button-5" data-dropdown data-auto-focus="true">
-                        <p class = "no-padding no-margin pink-link"><a href="https://foothillscollective.com/wp-content/uploads/2020/03/Over-and-Over-Lyrics-1.pdf" target="_blank"><i class="fas fa-download"></i> Lyric Chart</a></p>
-                        <p class = "no-padding no-margin"><a href="https://foothillscollective.com/wp-content/uploads/2020/03/Over-and-Over-Chord-Chart.pdf" target="_blank"><i class="fas fa-download"></i> Chord Chart</a></p>
-                        <p class = "no-padding no-margin pink-link"><a href="https://foothillscollective.com/wp-content/uploads/2020/03/Over-and-Over-Chart.pdf" target="_blank"><i class="fas fa-download"></i> Number Chart</a></p>
-                        <p class = "no-padding no-margin"><a href="https://www.multitracks.com/artists/Foothills-Collective/" target="_blank"><i class="fas fa-external-link-alt"></i> Multitracks</a></p>
-                    </div>
-                    <hr class = "no-margin">
-                </div>
+                                // Lyrics
+                                echo '<p class = "no-padding no-margin pink-link"><a href="';
+                                the_sub_field('lyric_chart');
+                                echo '" target="_blank"><i class="fas fa-download"></i> Lyric Chart</a></p>';
 
-                <div class="small-12 cell">
-                    <span class = "float-left-soft">
-                        <h4 class = "uppercase padding-top-only-2">6 // Love Runs Deep</h4>
-                    </span>
-                    <span class = "float-right-soft padding-outer">
-                        <button class="btn-hover color-1 no-margin" type="button" data-toggle="resource-button-6">Resources</button>
-                    </span>
-                    <div class="dropdown-pane" id="resource-button-6" data-dropdown data-auto-focus="true">
-                        <p class = "no-padding no-margin pink-link"><a href="https://foothillscollective.com/wp-content/uploads/2020/04/Love-Runs-Deep-Lyrics.pdf" target="_blank"><i class="fas fa-download"></i> Lyric Chart</a></p>
-                        <p class = "no-padding no-margin"><a href="https://foothillscollective.com/wp-content/uploads/2020/04/Love-Runs-Deep-Chord-Chart.pdf" target="_blank"><i class="fas fa-download"></i> Chord Chart</a></p>
-                        <p class = "no-padding no-margin pink-link"><a href="https://foothillscollective.com/wp-content/uploads/2020/04/Love-Runs-Deep-Number-Chart.pdf" target="_blank"><i class="fas fa-download"></i> Number Chart</a></p>
-                        <p class = "no-padding no-margin"><a href="https://www.multitracks.com/artists/Foothills-Collective/" target="_blank"><i class="fas fa-external-link-alt"></i> Multitracks</a></p>
-                    </div>
-                    <hr class = "no-margin">
-                </div>
+                                //Chord Charts
+                                echo '<p class = "no-padding no-margin"><a href="';
+                                the_sub_field('chord_chart');
+                                echo '" target="_blank"><i class="fas fa-download"></i> Chord Chart</a></p>';
 
-                <div class="small-12 cell">
-                    <span class = "float-left-soft">
-                        <h4 class = "uppercase padding-top-only-2">7 // All Authority</h4>
-                    </span>
-                    <span class = "float-right-soft padding-outer">
-                        <button class="btn-hover color-1 no-margin" type="button" data-toggle="resource-button-7">Resources</button>
-                    </span>
-                    <div class="dropdown-pane" id="resource-button-7" data-dropdown data-auto-focus="true">
-                        <p class = "no-padding no-margin pink-link"><a href="https://foothillscollective.com/wp-content/uploads/2020/04/All-Authority-Lyrics.pdf" target="_blank"><i class="fas fa-download"></i> Lyric Chart</a></p>
-                        <p class = "no-padding no-margin"><a href="https://foothillscollective.com/wp-content/uploads/2020/04/All-Authority-Chord-Chart.pdf" target="_blank"><i class="fas fa-download"></i> Chord Chart</a></p>
-                        <p class = "no-padding no-margin pink-link"><a href="https://foothillscollective.com/wp-content/uploads/2020/04/All-Authority-Chart.pdf" target="_blank"><i class="fas fa-download"></i> Number Chart</a></p>
-                        <p class = "no-padding no-margin"><a href="https://www.multitracks.com/artists/Foothills-Collective/" target="_blank"><i class="fas fa-external-link-alt"></i> Multitracks</a></p>
-                    </div>
-                    <hr class = "no-margin">
-                </div>
+                                //Number Charts
+                                echo '<p class = "no-padding no-margin pink-link"><a href="';
+                                the_sub_field('number_chart');
+                                echo '" target="_blank"><i class="fas fa-download"></i> Number Chart</a></p>';
 
-                <div class="small-12 cell">
-                    <span class = "float-left-soft">
-                        <h4 class = "uppercase padding-top-only-2">8 // Place of Peace (Spoken Word)</h4>
-                    </span>
-                    <span class = "float-right-soft padding-outer">
-                        <button class="btn-hover color-1 no-margin" type="button" data-toggle="resource-button-8">Resources</button>
-                    </span>
-                    <div class="dropdown-pane" id="resource-button-8" data-dropdown data-auto-focus="true">
-                        <p class = "no-padding no-margin pink-link"><a href="https://foothillscollective.com/wp-content/uploads/2020/04/Place-of-Peace-spoken-word-Lyrics.pdf" target="_blank"><i class="fas fa-download"></i> Lyric Chart</a></p>
-                    </div>
-                    <hr class = "no-margin">
-                </div>
+                                //Multitracks
+                                echo '<p class = "no-padding no-margin"><a href="';
+                                the_sub_field('multitracks_link');
+                                echo '" target="_blank"><i class="fas fa-external-link-alt"></i> Multitracks</a></p>';
 
-                <div class="small-12 cell">
-                    <span class = "float-left-soft">
-                        <h4 class = "uppercase padding-top-only-2">9 // Place of Peace</h4>
-                    </span>
-                    <span class = "float-right-soft padding-outer">
-                        <button class="btn-hover color-1 no-margin" type="button" data-toggle="resource-button-9">Resources</button>
-                    </span>
-                    <div class="dropdown-pane" id="resource-button-9" data-dropdown data-auto-focus="true">
-                        <p class = "no-padding no-margin pink-link"><a href="https://foothillscollective.com/wp-content/uploads/2020/04/Place-of-Peace-Lyrics.pdf" target="_blank"><i class="fas fa-download"></i> Lyric Chart</a></p>
-                        <p class = "no-padding no-margin"><a href="https://foothillscollective.com/wp-content/uploads/2020/04/Place-of-Peace-Chord-Chart.pdf" target="_blank"><i class="fas fa-download"></i> Chord Chart</a></p>
-                        <p class = "no-padding no-margin pink-link"><a href="https://foothillscollective.com/wp-content/uploads/2020/04/Place-of-Peace-Number-Chart.pdf" target="_blank"><i class="fas fa-download"></i> Number Chart</a></p>
-                        <p class = "no-padding no-margin"><a href="https://www.multitracks.com/artists/Foothills-Collective/" target="_blank"><i class="fas fa-external-link-alt"></i> Multitracks</a></p>
-                    </div>
-                    <hr class = "no-margin">
-                </div>
-
-
-                <div class="small-12 cell">
-                    <span class = "float-left-soft">
-                        <h4 class = "uppercase padding-top-only-2">10 // Something New Something Now</h4>
-                    </span>
-                    <span class = "float-right-soft padding-outer">
-                        <button class="btn-hover color-1 no-margin" type="button" data-toggle="resource-button-10">Resources</button>
-                    </span>
-                    <div class="dropdown-pane" id="resource-button-10" data-dropdown data-auto-focus="true">
-                        <p class = "no-padding no-margin pink-link"><a href="https://foothillscollective.com/wp-content/uploads/2020/04/Something-New-Something-Now-Lyrics.pdf" target="_blank"><i class="fas fa-download"></i> Lyric Chart</a></p>
-                        <p class = "no-padding no-margin"><a href="https://foothillscollective.com/wp-content/uploads/2020/04/Something-New-Something-Now-Chord-Chart.pdf" target="_blank"><i class="fas fa-download"></i> Chord Chart</a></p>
-                        <p class = "no-padding no-margin pink-link"><a href="https://foothillscollective.com/wp-content/uploads/2020/04/Something-New-Something-Now-Chart.pdf" target="_blank"><i class="fas fa-download"></i> Number Chart</a></p>
-                        <p class = "no-padding no-margin"><a href="https://www.multitracks.com/artists/Foothills-Collective/" target="_blank"><i class="fas fa-external-link-alt"></i> Multitracks</a></p>
-                    </div>
-                    <hr class = "no-margin">
-                </div>
-
+                            echo '</div>';
+                            echo '<hr class = "no-margin">';
+                       echo '</div>';
+                    endwhile;
+                else :
+                    // no rows found
+                endif;
+                ?>
 
             </div>
         </div>
