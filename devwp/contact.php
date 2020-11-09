@@ -17,7 +17,7 @@ get_header(); ?>
         <div class="grid-x grid-padding-x full-background" style = "background: url(<?php the_field('background'); ?>);  background-position: center center;">
             <div class="large-12 cell">
                 <div class="content-middle">
-                    <h1 class = "nav-header center"><?php the_field('title_text'); ?></h1>
+                    <h1 class = "subpage-header center"><?php the_field('title_text'); ?></h1>
                 </div>
             </div>
         </div>
@@ -26,7 +26,7 @@ get_header(); ?>
 
 <div class="full-width main-background">
     <div class = "grid-container">
-        <div class="grid-x grid-padding-x padding-outer">
+        <div class="grid-x grid-padding-x tb-padding">
             <div class="small-12 center cell">
                 <h3>Looking to get in touch?</h3>
                 <p>For press inquiries, publishing, touring, or any other questions, please contact worship@foothillschurch.com.</p>

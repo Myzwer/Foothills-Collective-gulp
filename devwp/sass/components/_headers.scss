@@ -1,0 +1,68 @@
+/**
+ * Headers
+ * =================================
+ * - Homepage Header
+ * - Subpage Headers
+ * - Hero
+ *
+ *
+ * Body font size, headings etc have been set in /variables
+ *
+ *
+ */
+
+
+//*********************************************
+//************* Homepage Header ***************
+//*********************************************
+
+.subpage-header {
+  font-family: $head-font;
+  text-transform: lowercase;
+  font-size: 3em;
+  color: $background;
+}
+
+.color-inverse {
+  color: $primary;
+}
+
+.color-inverse h1 {
+  color: $primary;
+}
+
+@media screen and (max-width: 39.9375em) {
+  .mobile-header {
+    h1 {
+      font-size:2em;
+    }
+
+    h2 {
+      font-size:1.3em;
+    }
+
+    h3 {
+      font-size: .9em;
+    }
+  }
+}
+
+
+//*********************************************
+//************** Subpage Header ***************
+//*********************************************
+.hero-header {
+  font-size: 2.8em;
+}
+
+@media screen and (min-width: 40em) {
+  .hero-header {
+    font-size: 4em;
+  }
+}
+
+@media screen and (min-width: 64em) {
+  .hero-header {
+    font-size: 6em;
+  }
+}

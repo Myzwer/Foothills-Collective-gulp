@@ -37,7 +37,7 @@ get_header(); ?>
 
     <div class="full-width main-background">
         <div class = "grid-container ">
-            <div class="grid-x grid-padding-x padding-outer">
+            <div class="grid-x grid-padding-x tb-padding">
                 <div class="large-12 cell">
                     <div class="image-banner rounded" style = "background: url(https://foothillscollective.com/wp-content/uploads/2020/02/New-Album-Background.jpg);background-position: center center;background-repeat: no-repeat;background-attachment: scroll;background-size: cover;">
 

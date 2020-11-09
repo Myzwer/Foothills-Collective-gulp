@@ -16,14 +16,14 @@ get_header(); ?>
     <video src="<?php the_field('video_background'); ?>" autoplay loop playsinline muted></video>
 
     <div class="viewport-header">
-        <h1 class = "nav-header uppercase center"><?php the_field('song_title'); ?></h1>
+        <h1 class = "subpage-header uppercase center"><?php the_field('song_title'); ?></h1>
 <!--        cta? video maybe-->
     </div>
 
 
     <div class="full-width main-background">
         <div class = "grid-container">
-            <div class="grid-x grid-padding-x padding-outer">
+            <div class="grid-x grid-padding-x tb-padding">
                 <div class="small-12 medium-6 cell">
                     <img src="<?php the_field('album_cover'); ?>" alt="">
                 </div>
@@ -47,7 +47,7 @@ get_header(); ?>
         </div>
 
         <div class = "grid-container">
-            <div class="grid-x grid-padding-x padding-outer">
+            <div class="grid-x grid-padding-x tb-padding">
                 <div class="small-12 cell">
                     <h2 class = "center">Resources</h2>
                     <hr>
@@ -85,7 +85,7 @@ get_header(); ?>
 
 
         <div class = "grid-container">
-            <div class="grid-x grid-padding-x padding-outer">
+            <div class="grid-x grid-padding-x tb-padding">
                 <div class="small-12 cell">
                     <h2 class = "center">Lyrics</h2>
                     <hr>

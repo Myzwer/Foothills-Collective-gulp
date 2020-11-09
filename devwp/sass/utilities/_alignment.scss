@@ -1,0 +1,130 @@
+/**
+ * Alignment
+ * =================================
+ * - Foundation Overrides
+ * - Positioning
+ * - Text Placements
+ * - Height Locks
+ *
+ *
+ */
+
+
+//*********************************************
+//********** FOUNDATION OVERRIDE **************
+//*********************************************
+
+.full-width {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: initial;
+}
+
+
+//*********************************************
+//*************** POSITIONING *****************
+//*********************************************
+.absolute {
+  position: absolute;
+}
+
+.relative {
+  position: relative;
+}
+
+.bottom-align {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+}
+
+
+//This can be used anywhere, but it HAS to have relative positioning above it or it won't work.
+.content-middle {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+}
+
+//content middle ONLY on tablet and higher
+@media screen and (min-width: 40em) {
+  .content-middle-medium {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 64em) {
+  .content-middle-large {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+  }
+}
+
+
+
+//*********************************************
+//****************** FLOATS *******************
+//*********************************************
+
+// Float left and right are already used by foundation, and they have the !important tag with them. This is meant to be a softer version of that only applies on medium and up
+//yeah...i know. Site goes live in 2 hours. This is a mobile fix.
+.float-right-soft {
+  float: left;
+}
+
+@media screen and (min-width: 40em) {
+  .float-right-soft {
+    float: right;
+  }
+}
+
+@media screen and (min-width: 40em) {
+  .float-left-soft {
+    float: left;
+  }
+}
+
+
+
+//*********************************************
+//************* TEXT PLACEMENTS ***************
+//*********************************************
+.left {
+  text-align: left;
+}
+
+.center {
+  text-align: center;
+  margin: 0 auto;
+}
+
+.soft-center {
+  text-align: center;
+}
+
+.right {
+  text-align: right;
+}
+
+
+//*********************************************
+//************** HEIGHT LOCKS *****************
+//*********************************************
+
+// These can be used to create height locks to make sure certain things line up
+// They have media queries on them because mobile won't need extra spacing
+@media screen and (min-width: 40em) {
+  .height-lock {
+    height: 100px;
+  }
+}

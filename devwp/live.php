@@ -25,7 +25,7 @@ get_header(); ?>
 
     <div class="full-width main-background">
         <div class = "grid-container ">
-            <div class="grid-x grid-padding-x padding-outer">
+            <div class="grid-x grid-padding-x tb-padding">
                 <div class="small-12 cell">
                     <h1 class = "color-inverse ">Worship With Us</h1>
                     <div id="la1-video-player" data-embed-id="e4df9c4a-e1d6-4ba0-85c2-160980140490">&nbsp;</div>

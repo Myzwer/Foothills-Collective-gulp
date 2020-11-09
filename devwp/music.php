@@ -17,7 +17,7 @@ get_header(); ?>
     <div class="grid-x grid-padding-x full-background" style = "background: url(<?php the_field('hero_section_background'); ?>);  background-position: center center;">
         <div class="large-12 cell">
             <div class="content-middle">
-                <h1 class = "nav-header center"><?php the_field('hero_section_title_text'); ?></h1>
+                <h1 class = "subpage-header center"><?php the_field('hero_section_title_text'); ?></h1>
             </div>
         </div>
     </div>
@@ -26,7 +26,7 @@ get_header(); ?>
 
 <div class="full-width main-background">
     <div class = "grid-container">
-        <div class="grid-x grid-padding-x padding-outer">
+        <div class="grid-x grid-padding-x tb-padding">
             <?php
             // Start the Repeater Loop
             if( have_rows('songs') ):

@@ -1,3 +1,18 @@
+/**
+ * Images
+ * =================================
+ * - Image Shadows
+ * - Just For Show
+ *
+ *
+ *
+ */
+
+
+//*********************************************
+//*************** Image Shadow ****************
+//*********************************************
+
 .album-shadow:after {
   transform: scale(0.95) translateY(36px) translateZ(-30px);
   filter: blur(20px);
@@ -22,8 +37,10 @@
   background-size: cover;
 }
 
-
-// Just for show
+//*********************************************
+//************** Just For Show ****************
+//*********************************************
+// Not a damn clue what this does / (probably) did.
 .light {
   background: radial-gradient(ellipse at center, rgba(255,255,255,0.3) 0%,rgba(255,255,255,0) 60%);
   width: 600px;

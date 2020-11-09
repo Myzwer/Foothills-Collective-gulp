@@ -1,0 +1,202 @@
+/**
+ * Typography
+ * =================================
+ * - Base
+ * - Headers
+ * - Paragraphs
+ * - Links
+ * - Text Transformations
+ * - Text Placements
+ * - Don't Break Out
+ *
+ *
+ * Body font size, headings etc have been set in /variables
+ *
+ *
+ */
+
+
+//*********************************************
+//****************** BASE *********************
+//*********************************************
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: $main-font;
+  font-size: $normal;
+}
+
+
+
+
+//*********************************************
+//***************** HEADERS *******************
+//*********************************************
+h1, h2, h3 {
+  font-family: $head-font;
+}
+
+h1 {
+  text-transform: uppercase;
+  font-size: 2.3em;
+  color: $white;
+}
+
+@media screen and (min-width: 40em) {
+  h1 {
+    font-size: 3em;
+  }
+}
+
+h2 {
+  font-size: 2em;
+  color: $primary;
+}
+
+h3 {
+  font-size: 1.5em;
+  color: $primary;
+}
+
+h4 {
+  font-family: $main-font;
+  font-size: 1.1em;
+  text-transform: uppercase;
+  color: $primary;
+  font-weight: 800;
+}
+
+h5 {
+  font-family: $main-font;
+  font-size: $small;
+  color: $primary;
+  font-weight: 800;
+}
+
+
+//*********************************************
+//*************** PARAGRAPHS ******************
+//*********************************************
+p {
+  font-family: $main-font;
+  font-size: $normal;
+  color: black;
+  padding: 20px;
+  line-height: 1.6;
+  padding-bottom: 0;
+}
+
+
+.featured-paragraph {
+  color: $white;
+  text-transform: uppercase;
+  font-size: 1.5em;
+  padding-top: 60px;
+
+
+
+//*********************************************
+//*************** FONT SIZES ******************
+//*********************************************
+.small-font {
+  font-size: $small;
+}
+
+.medium-font {
+  font-size: $medium;
+}
+
+.large-font {
+  font-size: $large;
+}
+
+.xlarge-font {
+  font-size: $xlarge;
+}
+
+@media screen and (max-width: 39.9375em) {
+  .medium-font-mobile {
+    font-size: $medium;
+  }
+}
+
+
+}
+
+
+
+//*********************************************
+//****************** LINKS *******************
+//*********************************************
+
+a {
+  color: $artic;
+}
+
+a:hover {
+  color: $primary;
+}
+
+a:active {
+  color: $primary;
+}
+
+a:visited {
+  color: $primary;
+}
+
+.pink-link a{
+  color: $taffy;
+}
+
+
+//*********************************************
+//********** TEXT TRANSFORMATION **************
+//*********************************************
+.capitalize {
+  text-transform: capitalize;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.bold {
+  font-weight: 800;
+}
+
+.italics {
+  font-style: italic;
+}
+
+
+//*********************************************
+//************* DON'T BREAK OUT ***************
+//*********************************************
+
+//So this is used on the privacy policy page, it keeps the text from breaking all weird.
+.dont-break-out {
+  /* These are technically the same, but use both */
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+
+  -ms-word-break: break-all;
+  /* This is the dangerous one in WebKit, as it breaks things wherever */
+  word-break: break-all;
+  /* Instead use this non-standard one: */
+  word-break: break-word;
+
+  /* Adds a hyphen where the word breaks, if supported (No Blink) */
+  -ms-hyphens: auto;
+  -moz-hyphens: auto;
+  -webkit-hyphens: auto;
+  hyphens: auto;
+}
+
+
+
+
+

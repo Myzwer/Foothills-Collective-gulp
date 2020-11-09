@@ -26,7 +26,7 @@ get_header(); ?>
 
     <div class="full-width main-background">
         <div class = "grid-container">
-            <div class="grid-x grid-padding-x padding-outer">
+            <div class="grid-x grid-padding-x tb-padding">
                 <div class="small-12 medium-6 cell">
                     <img src="<?php the_field('album_artwork'); ?>" alt="">
                 </div>
@@ -50,7 +50,7 @@ get_header(); ?>
         </div>
 
         <div class = "grid-container">
-            <div class="grid-x grid-padding-x grid-margin-x padding-outer">
+            <div class="grid-x grid-padding-x grid-margin-x tb-padding">
                 <div class="small-12 cell">
                     <h2 class = "uppercase">Track List</h2>
                     <hr class = "no-margin">
@@ -69,7 +69,7 @@ get_header(); ?>
                             echo '</span>';
 
                             // The actual button, and this is where things fall apart
-                            echo '<span class = "float-right-soft padding-outer">';
+                            echo '<span class = "float-right-soft tb-padding">';
                             // dropping OUT of php to use get_row_index(); which apparently doesn't work unless you weren't in php before.
                             ?>
 

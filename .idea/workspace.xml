@@ -1,15 +1,61 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="053c30ea-41d6-43a4-9236-366eb4cc3d4d" name="Default Changelist" comment="">
+    <list default="true" id="053c30ea-41d6-43a4-9236-366eb4cc3d4d" name="Default Changelist" comment="Ok im going to be honest I have no idea what has changed, I just opened up this file after like 6 months and this is where we are at.">
+      <change afterPath="$PROJECT_DIR$/devwp/sass/components/_arrow_animation.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/devwp/sass/components/_cells.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/devwp/sass/components/_headers.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/devwp/sass/utilities/_alignment.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/devwp/sass/utilities/_spacing.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/devwp/sass/utilities/_typography.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/devwp/sass/utilities/_utility-classes.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/devwp/sass/utilities/_visibility.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/devwp/sass/variables/_colors.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/devwp/sass/variables/_fonts.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/devwp/sass/variables/_sizes.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dev-gulp/gulpfile.js" beforeDir="false" afterPath="$PROJECT_DIR$/dev-gulp/gulpfile.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/devwp/about.php" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/about.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/devwp/contact.php" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/contact.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/devwp/dist/css/main.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/dist/css/main.min.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/devwp/dist/css/maps/main.min.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/dist/css/maps/main.min.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/devwp/front-page.php" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/front-page.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/devwp/homepage.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/devwp/homepage.php" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/homepage.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/devwp/landing.php" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/landing.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/devwp/live.php" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/live.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/devwp/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/devwp/music.php" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/music.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/devwp/privacy-policy.php" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/privacy-policy.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/devwp/resource-album.php" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/resource-album.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/devwp/sass/grid/_overrides.scss" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/sass/grid/_overrides.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/devwp/resource-page.php" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/resource-page.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/devwp/sass/globals/_backgrounds.scss" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/sass/components/_backgrounds.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/devwp/sass/globals/_buttons.scss" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/sass/components/_buttons.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/devwp/sass/globals/_countdown.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/devwp/sass/globals/_typography.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/devwp/sass/globals/_variables.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/devwp/sass/grid/_overrides.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/devwp/sass/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/sass/main.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/devwp/sass/media/_images.scss" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/sass/components/_images.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/devwp/sass/navigation/_footer.scss" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/sass/components/_footer.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/devwp/sass/navigation/_header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/sass/components/_nav.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,9 +63,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="ComposerSettings">
-    <execution>
-      <executable />
-    </execution>
+    <execution />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -36,10 +80,10 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -54,20 +98,9 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/devwp/sass/components" />
       <recent name="$PROJECT_DIR$/devwp/sass/navigation" />
     </key>
-  </component>
-  <component name="ServiceViewManager">
-    <option name="viewStates">
-      <list>
-        <serviceView>
-          <treeState>
-            <expand />
-            <select />
-          </treeState>
-        </serviceView>
-      </list>
-    </option>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -101,39 +134,52 @@
       <workItem from="1587400815028" duration="59000" />
       <workItem from="1588140969320" duration="12952000" />
       <workItem from="1588603909540" duration="29000" />
+      <workItem from="1604612360756" duration="9187000" />
+      <workItem from="1604852742845" duration="960000" />
+      <workItem from="1604934906759" duration="432000" />
+      <workItem from="1604937306279" duration="9113000" />
     </task>
+    <task id="LOCAL-00001" summary="Ok im going to be honest I have no idea what has changed, I just opened up this file after like 6 months and this is where we are at.">
+      <created>1604612566741</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1604612566741</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="2" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Ok im going to be honest I have no idea what has changed, I just opened up this file after like 6 months and this is where we are at." />
+    <option name="LAST_COMMIT_MESSAGE" value="Ok im going to be honest I have no idea what has changed, I just opened up this file after like 6 months and this is where we are at." />
   </component>
   <component name="WindowStateProjectService">
-    <state x="383" y="253" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1581402591690">
-      <screen x="0" y="23" width="1440" height="877" />
+    <state x="630" y="307" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1604950588968">
+      <screen x="0" y="23" width="1792" height="1097" />
     </state>
-    <state x="383" y="253" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1440.877@0.23.1440.877" timestamp="1581402591690" />
-    <state x="469" y="193" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1586468535697">
-      <screen x="0" y="23" width="1440" height="877" />
+    <state x="630" y="307" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1792.1097@0.23.1792.1097" timestamp="1604950588968" />
+    <state x="593" y="308" width="598" height="548" key="find.popup" timestamp="1604950497685">
+      <screen x="0" y="23" width="1792" height="1097" />
     </state>
-    <state x="469" y="193" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1440.877@0.23.1440.877" timestamp="1586468535697" />
-    <state x="538" y="381" key="NewPhpFileDialog" timestamp="1586389274521">
-      <screen x="0" y="23" width="1440" height="877" />
+    <state x="593" y="308" width="598" height="548" key="find.popup/0.23.1792.1097@0.23.1792.1097" timestamp="1604950497685" />
+    <state x="557" y="259" width="670" height="676" key="search.everywhere.popup" timestamp="1604944965707">
+      <screen x="0" y="23" width="1792" height="1097" />
     </state>
-    <state x="4077" y="454" key="NewPhpFileDialog/0.23.1440.877/3360.23.1920.1057/1440.23.1920.1057@3360.23.1920.1057" timestamp="1582751223025" />
-    <state x="538" y="381" key="NewPhpFileDialog/0.23.1440.877@0.23.1440.877" timestamp="1586389274521" />
-    <state x="419" y="314" key="com.intellij.ide.util.TipDialog" timestamp="1588603935004">
-      <screen x="0" y="23" width="1440" height="877" />
-    </state>
-    <state x="3919" y="374" key="com.intellij.ide.util.TipDialog/0.23.1440.877/3360.23.1920.1057/1440.23.1920.1057@3360.23.1920.1057" timestamp="1583847610442" />
-    <state x="419" y="314" key="com.intellij.ide.util.TipDialog/0.23.1440.877@0.23.1440.877" timestamp="1588603935004" />
-    <state x="397" y="196" width="667" height="486" key="find.popup" timestamp="1586467897171">
-      <screen x="0" y="23" width="1440" height="877" />
-    </state>
-    <state x="397" y="196" width="667" height="486" key="find.popup/0.23.1440.877@0.23.1440.877" timestamp="1586467897171" />
-    <state x="382" y="212" width="670" height="676" key="search.everywhere.popup" timestamp="1586414833524">
-      <screen x="0" y="23" width="1440" height="877" />
-    </state>
-    <state x="3869" y="251" width="894" height="815" key="search.everywhere.popup/0.23.1440.877/3360.23.1920.1057/1440.23.1920.1057@3360.23.1920.1057" timestamp="1582149592009" />
-    <state x="382" y="212" width="670" height="676" key="search.everywhere.popup/0.23.1440.877@0.23.1440.877" timestamp="1586414833524" />
+    <state x="557" y="259" width="670" height="676" key="search.everywhere.popup/0.23.1792.1097@0.23.1792.1097" timestamp="1604944965707" />
   </component>
 </project>

@@ -1,13 +1,54 @@
-@import 'globals/variables.scss';
-@import 'globals/buttons.scss';
-@import 'navigation/header';
-@import 'navigation/footer';
-@import 'grid/overrides';
-@import 'globals/backgrounds';
-@import 'globals/typography';
-@import 'globals/countdown';
-@import 'media/images';
+/**
+ * Main
+ * =================================
+ * - Variables
+ * - Utilities
+ * - Components
+ *
+ *
+ *
+ *
+ * - Main file that gets rendered. If partials are roads, than this is Rome.
+ */
 
+
+//*********************************************
+//*************** VARIABLES *******************
+//*********************************************
+
+
+@import 'variables/colors.scss';
+@import 'variables/fonts.scss';
+@import 'variables/sizes.scss';
+
+
+
+//*********************************************
+//**************** UTILITIES ******************
+//*********************************************
+
+
+@import 'utilities/typography';
+@import 'utilities/spacing';
+@import 'utilities/alignment';
+@import 'utilities/utility-classes';
+@import 'utilities/visibility';
+
+
+
+//*********************************************
+//*************** COMPONENTS ******************
+//*********************************************
+
+
+@import 'components/nav';
+@import 'components/headers';
+@import 'components/footer';
+@import 'components/buttons';
+@import 'components/backgrounds';
+@import 'components/arrow_animation';
+@import 'components/cells';
+@import 'components/images';
 
 
 //don't forget to update package.json and node_modules

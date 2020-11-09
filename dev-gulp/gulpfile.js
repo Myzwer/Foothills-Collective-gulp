@@ -93,7 +93,7 @@ function javascript() {
 function watch() {
     browserSync.init({
         open:'external',
-        proxy: 'dalemyn.local', //switch this to whatever local generates
+        proxy: 'https://dalemyn.local/', //switch this to whatever local generates
         port: 3000
     });
 

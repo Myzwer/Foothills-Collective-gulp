@@ -38,7 +38,7 @@ get_header(); ?>
 
     <div class="full-width main-background">
         <div class = "grid-container ">
-            <div class="grid-x grid-padding-x padding-outer">
+            <div class="grid-x grid-padding-x tb-padding">
                 <div class="large-12 cell">
                     <a href="<?php the_field('top_featured_image_image_link'); ?>">
                         <div class="image-banner rounded" style = "background: url(<?php the_field('top_featured_image_background_1'); ?>);background-position: center center;background-repeat: no-repeat;background-attachment: scroll;background-size: cover;">
