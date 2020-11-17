@@ -20,42 +20,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="053c30ea-41d6-43a4-9236-366eb4cc3d4d" name="Default Changelist" comment="Ok im going to be honest I have no idea what has changed, I just opened up this file after like 6 months and this is where we are at.">
-      <change afterPath="$PROJECT_DIR$/devwp/sass/components/_arrow_animation.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/devwp/sass/components/_cells.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/devwp/sass/components/_headers.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/devwp/sass/utilities/_alignment.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/devwp/sass/utilities/_spacing.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/devwp/sass/utilities/_typography.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/devwp/sass/utilities/_utility-classes.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/devwp/sass/utilities/_visibility.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/devwp/sass/variables/_colors.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/devwp/sass/variables/_fonts.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/devwp/sass/variables/_sizes.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/devwp/sass/components/_splitscreen.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dev-gulp/gulpfile.js" beforeDir="false" afterPath="$PROJECT_DIR$/dev-gulp/gulpfile.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/devwp/about.php" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/about.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/devwp/contact.php" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/contact.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/devwp/dist/css/main.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/dist/css/main.min.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/devwp/dist/css/maps/main.min.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/dist/css/maps/main.min.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/devwp/front-page.php" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/front-page.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/devwp/homepage.php" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/homepage.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/devwp/landing.php" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/landing.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/devwp/live.php" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/live.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/devwp/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/devwp/music.php" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/music.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/devwp/privacy-policy.php" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/privacy-policy.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/devwp/resource-album.php" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/resource-album.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/devwp/resource-page.php" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/resource-page.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/devwp/sass/globals/_backgrounds.scss" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/sass/components/_backgrounds.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/devwp/sass/globals/_buttons.scss" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/sass/components/_buttons.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/devwp/sass/globals/_countdown.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/devwp/sass/globals/_typography.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/devwp/sass/globals/_variables.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/devwp/sass/grid/_overrides.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/devwp/sass/components/_backgrounds.scss" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/sass/components/_backgrounds.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/devwp/sass/components/_buttons.scss" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/sass/components/_buttons.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/devwp/sass/components/_cells.scss" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/sass/components/_cells.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/devwp/sass/components/_headers.scss" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/sass/components/_headers.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/devwp/sass/components/_nav.scss" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/sass/components/_nav.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/devwp/sass/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/sass/main.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/devwp/sass/media/_images.scss" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/sass/components/_images.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/devwp/sass/navigation/_footer.scss" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/sass/components/_footer.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/devwp/sass/navigation/_header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/sass/components/_nav.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/devwp/sass/utilities/_typography.scss" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/sass/utilities/_typography.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/devwp/sass/utilities/_utility-classes.scss" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/sass/utilities/_utility-classes.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -137,7 +115,9 @@
       <workItem from="1604612360756" duration="9187000" />
       <workItem from="1604852742845" duration="960000" />
       <workItem from="1604934906759" duration="432000" />
-      <workItem from="1604937306279" duration="9113000" />
+      <workItem from="1604937306279" duration="10129000" />
+      <workItem from="1605021733398" duration="29351000" />
+      <workItem from="1605626275819" duration="973000" />
     </task>
     <task id="LOCAL-00001" summary="Ok im going to be honest I have no idea what has changed, I just opened up this file after like 6 months and this is where we are at.">
       <created>1604612566741</created>

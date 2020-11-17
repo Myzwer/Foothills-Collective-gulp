@@ -32,6 +32,10 @@
   text-transform: uppercase;
 }
 
+.light-color-invert {
+  color: $primary;
+}
+
 
 
 //*********************************************
@@ -67,3 +71,8 @@
 .box-shadow {
   box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
 }
+
+.no-box-shadow {
+  box-shadow: none;
+}
+

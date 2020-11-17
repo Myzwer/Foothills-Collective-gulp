@@ -23,6 +23,13 @@
   }
 }
 
+// This tells the front-page nav to change to have a background, while keeping the other pages transparent.
+@media screen and (min-width: 830px) {
+  .page-id-311 .topnav {
+    background-color: $charcoal;
+  }
+}
+
 
 .topnav a {
   float: left;

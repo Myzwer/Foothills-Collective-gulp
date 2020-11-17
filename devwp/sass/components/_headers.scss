@@ -15,7 +15,39 @@
 //*********************************************
 //************* Homepage Header ***************
 //*********************************************
+.hero-header {
+  font-size: 2.8em;
+}
 
+@media screen and (min-width: 40em) {
+  .hero-header {
+    font-size: 4em;
+  }
+}
+
+@media screen and (min-width: 64em) {
+  .hero-header {
+    font-size: 6em;
+  }
+}
+
+.front-page-hero {
+  position: relative;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 80vh;
+  padding-bottom: 100px; // this pulls the text UP to be centered since the hidden background on the navbar makes it appear off center
+}
+
+
+
+
+
+//*********************************************
+//************** Subpage Header ***************
+//*********************************************
 .subpage-header {
   font-family: $head-font;
   text-transform: lowercase;
@@ -44,25 +76,5 @@
     h3 {
       font-size: .9em;
     }
-  }
-}
-
-
-//*********************************************
-//************** Subpage Header ***************
-//*********************************************
-.hero-header {
-  font-size: 2.8em;
-}
-
-@media screen and (min-width: 40em) {
-  .hero-header {
-    font-size: 4em;
-  }
-}
-
-@media screen and (min-width: 64em) {
-  .hero-header {
-    font-size: 6em;
   }
 }
