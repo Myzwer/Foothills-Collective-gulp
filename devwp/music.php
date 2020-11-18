@@ -35,7 +35,7 @@ get_header(); ?>
                 while ( have_rows('songs') ) : the_row();
                     echo '<div class="small-12 medium-4 cell">';
                     // Album Artwork
-                    echo '<img src="';
+                    echo '<img class = "rounded box-shadow" src="';
                     the_sub_field('album_cover');
                     echo '">';
                     echo '</div>';
