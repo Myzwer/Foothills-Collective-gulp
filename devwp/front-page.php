@@ -76,7 +76,7 @@ get_header(); ?>
                         </div>
 
                     <div class="side-v2 side-v2--right">
-                        <div class="side-v2__bg" style = "background-image: url(https://dalemyn.local/wp-content/uploads/2020/11/Collective-Podcast-BG.jpg);
+                        <div class="side-v2__bg" style = "background-image: url(https://foothillscollective.com/wp-content/uploads/2020/11/Collective-Podcast-BG-copy.jpg);
     background-size: cover;">
                         </div>
 
@@ -147,7 +147,7 @@ get_header(); ?>
                 background: linear-gradient(
       rgba(0, 0, 0, 0.45),
       rgba(0, 0, 0, 0.45)
-    ),url(https://dalemyn.local/wp-content/uploads/2020/03/59-_DSC5732-copy.jpg);
+    ),url(https://foothillscollective.com/wp-content/uploads/2020/03/59-_DSC5732-copy.jpg);
                 background-position: center center;
                 background-repeat: no-repeat;
                 background-attachment: scroll;

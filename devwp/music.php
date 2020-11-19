@@ -42,7 +42,7 @@ get_header(); ?>
 
                     //Song Title
                     echo '<div class="small-12 medium-8 cell">';
-                    echo '<h3 class = "uppercase">';
+                    echo '<h3 class = "uppercase padding-top-mobile">';
                     the_sub_field('song_title');
                     echo '</h3>';
 

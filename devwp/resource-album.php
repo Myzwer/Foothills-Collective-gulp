@@ -31,7 +31,7 @@ get_header(); ?>
                     <img class = "rounded box-shadow" src="<?php the_field('album_artwork'); ?>" alt="">
                 </div>
                 <div class="small-12 medium-6 cell">
-                    <h2 class = "uppercase"><?php the_field('song_title'); ?></h2>
+                    <h2 class = "uppercase padding-top-mobile"><?php the_field('song_title'); ?></h2>
 <!--                    use the same song_title from the top for this -->
                     <hr>
 
@@ -64,7 +64,7 @@ get_header(); ?>
         </div>
 
         <div class = "grid-container">
-            <div class="grid-x grid-padding-x grid-margin-x tb-padding">
+            <div class="grid-x grid-padding-x  tb-padding">
                 <div class="small-12 cell">
                     <h2 class = "uppercase">Track List</h2>
                     <hr class = "no-margin">
@@ -77,7 +77,7 @@ get_header(); ?>
                     while ( have_rows('track_list') ) : the_row();
                        echo '<div class="small-12 cell">';
                             echo '<span class = "float-left-soft">';
-                                echo '<h4 class = "uppercase padding-top-only-2">';
+                                echo '<h4 class = "uppercase padding-top">';
                                     the_sub_field('song_title');
                                 echo '</h4>';
                             echo '</span>';
