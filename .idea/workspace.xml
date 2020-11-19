@@ -19,13 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="053c30ea-41d6-43a4-9236-366eb4cc3d4d" name="Default Changelist" comment="Updated the album pages a bit. Added a box shadow and rounded corners to the albums, made sure links were the right color, and made links disappear if they don't have a link value associated with them.">
+    <list default="true" id="053c30ea-41d6-43a4-9236-366eb4cc3d4d" name="Default Changelist" comment="Removed the slant on mobile on front page because I decided I didn't like it.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/devwp/dist/css/main.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/dist/css/main.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/devwp/dist/css/maps/main.min.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/dist/css/maps/main.min.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/devwp/front-page.php" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/front-page.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/devwp/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/devwp/sass/utilities/_spacing.scss" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/sass/utilities/_spacing.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/devwp/resource-album.php" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/resource-album.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -109,7 +105,7 @@
       <workItem from="1604934906759" duration="432000" />
       <workItem from="1604937306279" duration="10129000" />
       <workItem from="1605021733398" duration="29351000" />
-      <workItem from="1605626275819" duration="17543000" />
+      <workItem from="1605626275819" duration="17774000" />
     </task>
     <task id="LOCAL-00001" summary="Ok im going to be honest I have no idea what has changed, I just opened up this file after like 6 months and this is where we are at.">
       <created>1604612566741</created>
@@ -146,7 +142,14 @@
       <option name="project" value="LOCAL" />
       <updated>1605806342885</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Removed the slant on mobile on front page because I decided I didn't like it.">
+      <created>1605808613893</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1605808613893</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -170,7 +173,8 @@
     <MESSAGE value="Added a drop shadow and rounded the corners on the album artwork on the music page." />
     <MESSAGE value="Finished updating the homepage. Still a few things that need to be ACF, but for now I am unsure why it isn't working." />
     <MESSAGE value="Updated the album pages a bit. Added a box shadow and rounded corners to the albums, made sure links were the right color, and made links disappear if they don't have a link value associated with them." />
-    <option name="LAST_COMMIT_MESSAGE" value="Updated the album pages a bit. Added a box shadow and rounded corners to the albums, made sure links were the right color, and made links disappear if they don't have a link value associated with them." />
+    <MESSAGE value="Removed the slant on mobile on front page because I decided I didn't like it." />
+    <option name="LAST_COMMIT_MESSAGE" value="Removed the slant on mobile on front page because I decided I didn't like it." />
   </component>
   <component name="WindowStateProjectService">
     <state x="630" y="307" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1604950588968">

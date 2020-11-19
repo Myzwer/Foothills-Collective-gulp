@@ -95,14 +95,14 @@ get_header(); ?>
                                 //dropping back in for the last half of the repeater, linking the files. Pretty normal from here on out.
 
                                 // Lyrics
-                                if( get_field('lyric_chart') ):
+                                if( get_sub_field('lyric_chart') ):
                                     echo '<p class = "no-padding no-margin pink-link"><a href="';
                                     the_sub_field('lyric_chart');
                                     echo '" target="_blank"><i class="fas fa-download"></i> Lyric Chart</a></p>';
                                 endif;
 
                                 //Chord Charts
-                                if( get_field('chord_chart') ):
+                                if( get_sub_field('chord_chart') ):
                                     echo '<p class = "no-padding no-margin"><a href="';
                                     the_sub_field('chord_chart');
                                     echo '" target="_blank"><i class="fas fa-download"></i> Chord Chart</a></p>';
@@ -110,22 +110,19 @@ get_header(); ?>
 
 
                                 //Number Charts
-                                if( get_field('number_chart') ):
+                                if( get_sub_field('number_chart') ):
                                     echo '<p class = "no-padding no-margin pink-link"><a href="';
                                     the_sub_field('number_chart');
                                     echo '" target="_blank"><i class="fas fa-download"></i> Number Chart</a></p>';
                                 endif;
 
                                 //Multitracks
-                                if( get_field('multitracks_link') ):
+                                if( get_sub_field('multitracks_link') ):
                                     echo '<p class = "no-padding no-margin"><a href="';
                                     the_sub_field('multitracks_link');
                                     echo '" target="_blank"><i class="fas fa-external-link-alt"></i> Multitracks</a></p>';
                                 endif;
 
-                                if( get_field('lyrics_chart') || get_field('chord_chart') || get_field('number_chart') || get_field('multitracks_link') ):
-                                    echo '<p>There are no resources available for this song.</p>';
-                                endif;
 
                             echo '</div>';
                             echo '<hr class = "no-margin">';
