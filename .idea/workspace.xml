@@ -19,9 +19,13 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="053c30ea-41d6-43a4-9236-366eb4cc3d4d" name="Default Changelist" comment="Made a few updates lol. Completely redesigned the homepage, still need to add ACF to make it dynamic.">
+    <list default="true" id="053c30ea-41d6-43a4-9236-366eb4cc3d4d" name="Default Changelist" comment="Added a drop shadow and rounded the corners on the album artwork on the music page.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/devwp/music.php" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/music.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/devwp/dist/css/main.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/dist/css/main.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/devwp/dist/css/maps/main.min.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/dist/css/maps/main.min.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/devwp/front-page.php" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/front-page.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/devwp/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/devwp/sass/components/_splitscreen.scss" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/sass/components/_splitscreen.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -105,7 +109,7 @@
       <workItem from="1604934906759" duration="432000" />
       <workItem from="1604937306279" duration="10129000" />
       <workItem from="1605021733398" duration="29351000" />
-      <workItem from="1605626275819" duration="3026000" />
+      <workItem from="1605626275819" duration="11943000" />
     </task>
     <task id="LOCAL-00001" summary="Ok im going to be honest I have no idea what has changed, I just opened up this file after like 6 months and this is where we are at.">
       <created>1604612566741</created>
@@ -121,7 +125,14 @@
       <option name="project" value="LOCAL" />
       <updated>1605644625599</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Added a drop shadow and rounded the corners on the album artwork on the music page.">
+      <created>1605712216993</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1605712216993</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -142,7 +153,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Ok im going to be honest I have no idea what has changed, I just opened up this file after like 6 months and this is where we are at." />
     <MESSAGE value="Made a few updates lol. Completely redesigned the homepage, still need to add ACF to make it dynamic." />
-    <option name="LAST_COMMIT_MESSAGE" value="Made a few updates lol. Completely redesigned the homepage, still need to add ACF to make it dynamic." />
+    <MESSAGE value="Added a drop shadow and rounded the corners on the album artwork on the music page." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added a drop shadow and rounded the corners on the album artwork on the music page." />
   </component>
   <component name="WindowStateProjectService">
     <state x="630" y="307" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1604950588968">

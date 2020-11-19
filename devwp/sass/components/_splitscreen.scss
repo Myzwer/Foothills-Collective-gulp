@@ -71,15 +71,12 @@ $side-skew-angle: 9deg;
     top: 0;
     width: 55%;
     height: 100%;
-    background-image: url(https://foothillscollective.com/wp-content/uploads/2020/10/Truly-Website-Background.jpg);
-    background-size: cover;
     //transform: skew($side-skew-angle) scale(1.3);
     transform: skew($side-skew-angle);
   }
 
   .background-2 {
-    background-image: url(https://foothillscollective.com/wp-content/uploads/2020/11/Collective-Podcast.jpg);
-    background-size: cover;
+
   }
 
   &__overlay {
@@ -103,8 +100,6 @@ $side-skew-angle: 9deg;
 //*********************************************
 
 .slants {
-  background-image: url("https://foothillscollective.com/wp-content/uploads/2020/10/Truly-Website-Background.jpg");
-  background-size: cover;
   width: 100%;
   height: 500px;
   position: relative;

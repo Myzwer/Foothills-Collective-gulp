@@ -14,21 +14,39 @@
 get_header(); ?>
 
 
-    <div class="grid-container full-width">
-        <div class="grid-x grid-padding-x front-page-hero" style = "background: url(https://dalemyn.local/wp-content/uploads/2020/11/MTMTE-Banner.jpg);  background-position: center center;">
-            <div class="large-12 cell">
-                <div class="content-middle">
-                    <h1 class = "center light-color-invert">Foothills Collective</h1>
-                    <h2 class = "center light-color-invert">More Than Meets The Eye</h2>
-                    <div class="buttons">
-                        <a href = "#">
-                            <button class="btn-hover color-1-alt">Stream the EP Now!</button>
-                        </a>
+    <?php if( have_rows('background_settings_hero') ): ?>
+        <?php while( have_rows('background_settings_hero') ): the_row(); ?>
+            <div class="grid-container full-width">
+                <div class="grid-x grid-padding-x front-page-hero" style = "background: linear-gradient(
+                    rgba(0, 0, 0, 0.<?php the_sub_field('tinting'); ?>),
+                    rgba(0, 0, 0, 0.<?php the_sub_field('tinting'); ?>)
+                    ),url(<?php the_sub_field('background_image'); ?>);
+                    background-position: <?php the_sub_field('vertical_alignment'); ?> center;
+                    background-repeat: no-repeat;
+                    background-attachment: scroll;
+                    background-size: cover;">
+                <?php endwhile; ?>
+            <?php endif; ?>
+
+                <div class="large-12 cell">
+                    <div class="content-middle">
+                        <h1 class = "center light-color-invert"><?php the_field('title'); ?></h1>
+                        <h2 class = "center light-color-invert"><?php the_field('subtitle'); ?></h2>
+                        <div class="buttons">
+                            <?php if( have_rows('hero_button') ): ?>
+                                <?php while( have_rows('hero_button') ): the_row(); ?>
+                                    <a href = "<?php the_sub_field('button_link'); ?>">
+                                        <button class="btn-hover color-1-alt"><?php the_sub_field('button_text'); ?></button>
+                                    </a>
+                                <?php endwhile; ?>
+                            <?php endif; ?>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
+    <!--End Header-->
+
 
 
     <!--DESKTOP-->
@@ -37,27 +55,42 @@ get_header(); ?>
             <div class="medium-12 cell">
                 <div class="block">
                     <div class="side-v2 side-v2--left">
-                        <div class="side-v2__bg"></div>
-                        <div class="side-v2__inner">
-                            <div class="side-v2__title">
-                                <h3 class = "dark-color-invert">"Truly" Is Available Everywhere!</h3>
-                                <div class="buttons">
-                                    <a href = "#">
-                                        <button class="btn-hover color-3">Stream the Single Now!</button>
-                                    </a>
+                        <div class="side-v2__bg" style = "background-image: url(https://foothillscollective.com/wp-content/uploads/2020/10/Truly-Website-Background.jpg);
+    background-size: cover;">
+                            </div>
+
+                            <div class="side-v2__inner">
+                                <div class="side-v2__title">
+                                    <h3 class = "dark-color-invert"><?php the_field('left_header'); ?></h3>
+                                    <div class="buttons">
+                                        <?php if( have_rows('left_button') ): ?>
+                                            <?php while( have_rows('left_button') ): the_row(); ?>
+                                                <a href = "<?php the_sub_field('button_link'); ?>">
+                                                    <button class="btn-hover color-3"><?php the_sub_field('button_text'); ?></button>
+                                                </a>
+                                            <?php endwhile; ?>
+                                        <?php endif; ?>
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                    </div>
+
                     <div class="side-v2 side-v2--right">
-                        <div class="side-v2__bg background-2"></div>
+                        <div class="side-v2__bg" style = "background-image: url(https://dalemyn.local/wp-content/uploads/2020/11/Collective-Podcast-BG.jpg);
+    background-size: cover;">
+                        </div>
+
                         <div class="side-v2__inner">
                             <div class="side-v2__title">
                                 <h3 class = "dark-color-invert">Check Out our BTS of Truly!</h3>
                                 <div class="buttons">
-                                    <a href = "#">
-                                        <button class="btn-hover color-1">Listen to the Podcast</button>
-                                    </a>
+                                    <?php if( have_rows('right_button') ): ?>
+                                        <?php while( have_rows('right_button') ): the_row(); ?>
+                                            <a href = "<?php the_sub_field('button_link'); ?>">
+                                                <button class="btn-hover color-1-alt"><?php the_sub_field('button_text'); ?></button>
+                                            </a>
+                                        <?php endwhile; ?>
+                                    <?php endif; ?>
                                 </div>
                             </div>
                         </div>
@@ -72,21 +105,30 @@ get_header(); ?>
     <div class="full-width main-background show-for-mobile">
         <div class="grid-x">
             <div class="small-12 cell">
-                <div class="slants">
+                <?php if( have_rows('background_settings_mobile') ): ?>
+                <?php while( have_rows('background_settings_mobile') ): the_row(); ?>
+                <div class="slants" style = "background: linear-gradient(
+                        rgba(0, 0, 0, 0.<?php the_sub_field('tinting'); ?>),
+                        rgba(0, 0, 0, 0.<?php the_sub_field('tinting'); ?>)
+                        ),url(<?php the_sub_field('background_image'); ?>);
+                        background-position: <?php the_sub_field('vertical_alignment'); ?> center;
+                        background-size: cover;">
+                    <?php endwhile; ?>
+                    <?php endif; ?>
                     <div class="slant-top"></div>
-                    <h3 class = "dark-color-invert center add-padding">Stream "Truly" Wherever you listen to music!</h3>
+                    <h3 class = "dark-color-invert center add-padding"><?php the_field('split_title'); ?></h3>
                     <div class="full-width">
                         <div class="grid-x grid-padding-x grid-padding-y">
                             <div class="small-6 cell">
-                                <a href="#">
-                                    <img class = "box-shadow" src="https://foothillscollective.com/wp-content/uploads/2020/10/Truly-Brand.jpg" alt="">
-                                    <h4 class = "dark-color-invert center">Song</h4>
+                                <a href="<?php the_field('left_link'); ?>">
+                                    <img class = "box-shadow" src="<?php the_field('album_artwork_left'); ?>" alt="">
+                                    <h4 class = "dark-color-invert center"><?php the_field('album_title_left'); ?></h4>
                                 </a>
                             </div>
                             <div class="small-6 cell">
-                                <a href="#">
-                                    <img class = "box-shadow" src="https://foothillscollective.com/wp-content/uploads/2020/11/profile-image.jpg" alt="">
-                                    <h4 class = "dark-color-invert center">Podcast</h4>
+                                <a href="<?php the_field('right_link'); ?>">
+                                    <img class = "box-shadow" src="<?php the_field('album_artwork_right'); ?>" alt="">
+                                    <h4 class = "dark-color-invert center"><?php the_field('album_title_right'); ?></h4>
                                 </a>
                             </div>
                         </div>
@@ -97,9 +139,11 @@ get_header(); ?>
     </div>
     <!--END MOBILE-->
 
-    <div class="full-width main-background">
-        <div class="grid-x">
-            <div class="small-12 cell">
+
+
+        <div class="full-width main-background">
+            <div class="grid-x">
+                <div class = "small-12 cell"
                 <div class="image-banner-xlarge" style = "
                 background: linear-gradient(
       rgba(0, 0, 0, 0.45),
@@ -112,17 +156,21 @@ get_header(); ?>
                     <div class="grid-container">
                         <div class="grid-x grid-padding-y">
                             <div class="small-12 medium-offset-1 medium-5 relative cell">
-                                <img class = "box-shadow" src="https://foothillscollective.com/wp-content/uploads/2020/04/Life-to-the-Lion.jpg" alt="">
+                                <img class = "box-shadow" src="<?php the_field('album_artwork_featured'); ?>" alt="">
                             </div>
                             <div class="small-12 medium-6 relative cell">
                                 <div class="content-middle-medium add-padding">
-                                <h2 class = "text-overlay center"> Life to the Lion</h2>
-                                <h3 class = "text-overlay center">Stream Our Debut album, Live from Foothills Church</h3>
+                                <h2 class = "text-overlay center"><?php the_field('album_title'); ?></h2>
+                                <h3 class = "text-overlay center"><?php the_field('album_subtitle'); ?></h3>
                                     <hr>
                                     <div class="buttons">
-                                        <a href = "#">
-                                            <button class="btn-hover color-1">Listen Now</button>
-                                        </a>
+                                        <?php if( have_rows('album_button') ): ?>
+                                            <?php while( have_rows('album_button') ): the_row(); ?>
+                                                <a href = "<?php the_sub_field('button_link'); ?>">
+                                                    <button class="btn-hover color-1-alt"><?php the_sub_field('button_text'); ?></button>
+                                                </a>
+                                            <?php endwhile; ?>
+                                        <?php endif; ?>
                                     </div>
                                 </div>
                             </div>
@@ -133,32 +181,36 @@ get_header(); ?>
         </div>
     </div>
 
+
     <div class="full-width main-background">
         <div class="grid-x">
             <div class="small-12 cell">
                 <div class="image-banner-xlarge" style = "
                 background: linear-gradient(
-      rgba(0, 0, 0, 0),
-      rgba(0, 0, 0, 0)
+      rgba(0, 0, 0, 0.0),
+      rgba(0, 0, 0, 0.0)
     ),url(https://foothillscollective.com/wp-content/uploads/2020/11/MTMTE-Background-White-Only.jpg);
                 background-position: center center;
                 background-repeat: no-repeat;
                 background-attachment: scroll;
                 background-size: cover;">
-                    <div class="content-middle add-padding">
-                        <h2 class = "text-overlay light-color-invert center"> Get The Resources</h2>
-                        <h3 class = "text-overlay light-color-invert center">Tracks, Charts, Lyrics and More.</h3>
+                    <div class="content-middle-medium add-padding">
+                        <h2 class = "text-overlay light-color-invert center"><?php the_field('resources_title'); ?></h2>
+                        <h3 class = "text-overlay light-color-invert center"><?php the_field('resources_subtitle'); ?></h3>
                         <div class="buttons">
-                            <a href = "#">
-                                <button class="btn-hover color-1">Extend Your Setlist</button>
-                            </a>
+                            <?php if( have_rows('resources_button') ): ?>
+                                <?php while( have_rows('resources_button') ): the_row(); ?>
+                                    <a href = "<?php the_sub_field('button_link'); ?>">
+                                        <button class="btn-hover color-1-alt"><?php the_sub_field('button_text'); ?></button>
+                                    </a>
+                                <?php endwhile; ?>
+                            <?php endif; ?>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-
 
 
     <div class="full-width main-background">
@@ -173,19 +225,26 @@ get_header(); ?>
                 background-repeat: no-repeat;
                 background-attachment: scroll;
                 background-size: cover;">
-                    <div class="content-middle add-padding">
-                        <h2 class = "text-overlay center">Follow Us On Youtube</h2>
-                        <h3 class = "text-overlay center">Music Vidoes, Worship Sets, BTS and More!</h3>
+                    <div class="content-middle-medium add-padding">
+                        <h2 class = "text-overlay center"><?php the_field('social_title'); ?></h2>
+                        <h3 class = "text-overlay center"><?php the_field('social_subtitle'); ?></h3>
                         <div class="buttons">
-                            <a href = "#">
-                                <button class="btn-hover color-1">Check us out!</button>
-                            </a>
+                            <?php if( have_rows('social_button') ): ?>
+                                <?php while( have_rows('social_button') ): the_row(); ?>
+                                    <a href = "<?php the_sub_field('button_link'); ?>">
+                                        <button class="btn-hover color-1-alt"><?php the_sub_field('button_text'); ?></button>
+                                    </a>
+                                <?php endwhile; ?>
+                            <?php endif; ?>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
+
+
+
 
 
     <div class="full-width main-background padding-bottom">
