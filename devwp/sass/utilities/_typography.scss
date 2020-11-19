@@ -137,7 +137,7 @@ a {
 }
 
 a:hover {
-  color: $primary;
+  color: $taffy;
 }
 
 a:active {
@@ -145,11 +145,15 @@ a:active {
 }
 
 a:visited {
-  color: $primary;
+  color: $artic;
 }
 
 .pink-link a{
   color: $taffy;
+}
+
+.pink-link a:hover{
+  color: $artic;
 }
 
 

@@ -25,23 +25,38 @@ get_header(); ?>
         <div class = "grid-container">
             <div class="grid-x grid-padding-x tb-padding">
                 <div class="small-12 medium-6 cell">
-                    <img src="<?php the_field('album_cover'); ?>" alt="">
+                    <img class = "rounded box-shadow" src="<?php the_field('album_cover'); ?>" alt="">
                 </div>
                 <div class="small-12 medium-6 cell">
                     <h2 class = "uppercase"><?php the_field('song_title'); ?></h2>
                     <h4 class = "no-padding no-margin">Writers</h4>
-                    <p class = "capitalize no-padding no-margin"><?php the_field('writer_names'); ?></p>
+                    <p class = "capitalize no-padding no-margin padding-bottom"><?php the_field('writer_names'); ?></p>
+
+                    <h4 class = "no-padding no-margin margin-top-only" >Where to Listen</h4>
+                    <!-- This looks like a lot, but it's really just checking to see if the field exists, and showing it if so   -->
+                    <?php if( get_field('where_to_listen_spotify') ): ?>
+                        <p class = "no-padding no-margin"><a href="<?php the_field('where_to_listen_spotify'); ?>" target="_blank"><i class="fab fa-spotify"></i> Listen On Spotify</a></p>
+                    <?php endif; ?>
+
+                    <?php if( get_field('where_to_listen_apple_music') ): ?>
+                        <p class = "no-padding no-margin"><a href="<?php the_field('where_to_listen_apple_music'); ?>" target="_blank"><i class="fab fa-itunes"></i> Listen On Apple Music</a></p>
+                    <?php endif; ?>
+
+                    <?php if( get_field('where_to_listen_amazon') ): ?>
+                        <p class = "no-padding no-margin"><a href="<?php the_field('where_to_listen_amazon'); ?>" target="_blank"><i class="fab fa-amazon"></i> Buy on Amazon</a></p>
+                    <?php endif; ?>
+
+                    <?php if( get_field('where_to_listen_youtube') ): ?>
+                        <p class = "no-padding no-margin"><a href="<?php the_field('where_to_listen_youtube'); ?>" target="_blank"><i class="fab fa-youtube"></i> Watch on Youtube</a></p>
+                    <?php endif; ?>
+
+                    <?php if( get_field('where_to_listen_itunes') ): ?>
+                        <p class = "no-padding no-margin padding-bottom"><a href="<?php the_field('where_to_listen_itunes'); ?>" target="_blank"><i class="fab fa-itunes-note"></i> Buy On iTunes</a></p>
+                    <?php endif; ?>
 
                     <h4 class = "no-padding no-margin margin-top-only">Release Year</h4>
                     <p class = "capitalize no-padding"><?php the_field('release_year'); ?></p>
 
-                    <h4 class = "no-padding no-margin margin-top-only" >Where to Listen</h4>
-                    <p class = "no-padding no-margin"><a href="<?php the_field('where_to_listen_spotify'); ?>" target="_blank"><i class="fab fa-spotify"></i> Listen On Spotify</a></p>
-                    <p class = "no-padding no-margin"><a href="<?php the_field('where_to_listen_apple_music'); ?>" target="_blank"><i class="fab fa-itunes"></i> Listen On Apple Music</a></p>
-                    <p class = "no-padding no-margin"><a href="<?php the_field('where_to_listen_amazon'); ?>" target="_blank"><i class="fab fa-amazon"></i> Buy on Amazon</a></p>
-                    <p class = "no-padding no-margin"><a href="<?php the_field('where_to_listen_youtube'); ?>" target="_blank"><i class="fab fa-youtube"></i> Watch on Youtube</a></p>
-                    <p class = "no-padding no-margin"><a href="<?php the_field('where_to_listen_itunes'); ?>" target="_blank"><i class="fab fa-itunes-note"></i> Buy On iTunes</a></p>
-                    <p class = "no-padding no-margin"><a href="<?php the_field('where_to_listen_google_play'); ?>" target="_blank"><i class="fab fa-google-play"></i> Listen on Google Play</a></p>
                 </div>
             </div>
         </div>
@@ -73,13 +88,13 @@ get_header(); ?>
                         </a>
                     </div>
                 </div>
-<!--                <div class="small-12 medium-6 cell">-->
-<!--                    <div class="buttons">-->
-<!--                        <a href = "--><?php //the_field('multitracks_link'); ?><!--">-->
-<!--                            <button class="btn-hover btn-extended color-2"><i class="fas fa-external-link-alt"></i> Multitracks</button>-->
-<!--                        </a>-->
-<!--                    </div>-->
-<!--                </div>-->
+                <div class="small-12 medium-6 cell">
+                    <div class="buttons">
+                        <a href = "<?php the_field('multitracks_link'); ?>">
+                            <button class="btn-hover btn-extended color-2"><i class="fas fa-external-link-alt"></i> Multitracks</button>
+                        </a>
+                    </div>
+                </div>
             </div>
         </div>
 
