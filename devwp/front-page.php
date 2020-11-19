@@ -115,19 +115,18 @@ get_header(); ?>
                         background-size: cover;">
                     <?php endwhile; ?>
                     <?php endif; ?>
-                    <div class="slant-top"></div>
                     <h3 class = "dark-color-invert center add-padding"><?php the_field('split_title'); ?></h3>
                     <div class="full-width">
                         <div class="grid-x grid-padding-x grid-padding-y">
                             <div class="small-6 cell">
                                 <a href="<?php the_field('left_link'); ?>">
-                                    <img class = "box-shadow" src="<?php the_field('album_artwork_left'); ?>" alt="">
+                                    <img class = "box-shadow rounded" src="<?php the_field('album_artwork_left'); ?>" alt="">
                                     <h4 class = "dark-color-invert center"><?php the_field('album_title_left'); ?></h4>
                                 </a>
                             </div>
                             <div class="small-6 cell">
                                 <a href="<?php the_field('right_link'); ?>">
-                                    <img class = "box-shadow" src="<?php the_field('album_artwork_right'); ?>" alt="">
+                                    <img class = "box-shadow rounded" src="<?php the_field('album_artwork_right'); ?>" alt="">
                                     <h4 class = "dark-color-invert center"><?php the_field('album_title_right'); ?></h4>
                                 </a>
                             </div>
@@ -156,7 +155,7 @@ get_header(); ?>
                     <div class="grid-container">
                         <div class="grid-x grid-padding-y">
                             <div class="small-12 medium-offset-1 medium-5 relative cell">
-                                <img class = "box-shadow" src="<?php the_field('album_artwork_featured'); ?>" alt="">
+                                <img class = "box-shadow rounded add-padding" src="<?php the_field('album_artwork_featured'); ?>" alt="">
                             </div>
                             <div class="small-12 medium-6 relative cell">
                                 <div class="content-middle-medium add-padding">
