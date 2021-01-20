@@ -30,8 +30,8 @@ get_header(); ?>
 
                 <div class="large-12 cell">
                     <div class="content-middle">
-                        <h1 class = "center light-color-invert"><?php the_field('title'); ?></h1>
-                        <h2 class = "center light-color-invert"><?php the_field('subtitle'); ?></h2>
+                        <h1 class = "center"><?php the_field('title'); ?></h1>
+                        <h2 class = "center dark-color-invert"><?php the_field('subtitle'); ?></h2>
                         <div class="buttons">
                             <?php if( have_rows('hero_button') ): ?>
                                 <?php while( have_rows('hero_button') ): the_row(); ?>
