@@ -19,15 +19,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="053c30ea-41d6-43a4-9236-366eb4cc3d4d" name="Default Changelist" comment="Flipped the text color on the homepage to allow better readability with the new background image.">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dev-gulp/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/dev-gulp/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dev-gulp/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/dev-gulp/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/devwp/dist/css/main.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/dist/css/main.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/devwp/dist/css/maps/main.min.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/dist/css/maps/main.min.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/devwp/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/header.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/devwp/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/devwp/sass/utilities/_typography.scss" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/sass/utilities/_typography.scss" afterDir="false" />
+    <list default="true" id="053c30ea-41d6-43a4-9236-366eb4cc3d4d" name="Default Changelist" comment=":hammer: Made a handful of misc edits, namely removing the title from the header to allow Yoast to Force rewrite, as well as a few minor css tweaks to the homepage.">
+      <change beforePath="$PROJECT_DIR$/devwp/sass/components/_buttons.scss" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/sass/components/_buttons.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -114,7 +107,7 @@
       <workItem from="1605626275819" duration="19247000" />
       <workItem from="1611068844791" duration="1181000" />
       <workItem from="1611250076751" duration="39000" />
-      <workItem from="1617291558976" duration="1162000" />
+      <workItem from="1617291558976" duration="1329000" />
     </task>
     <task id="LOCAL-00001" summary="Ok im going to be honest I have no idea what has changed, I just opened up this file after like 6 months and this is where we are at.">
       <created>1604612566741</created>
@@ -179,7 +172,14 @@
       <option name="project" value="LOCAL" />
       <updated>1611171075255</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary=":hammer: Made a handful of misc edits, namely removing the title from the header to allow Yoast to Force rewrite, as well as a few minor css tweaks to the homepage.">
+      <created>1617301769257</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1617301769257</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -207,7 +207,8 @@
     <MESSAGE value="Fixed a bug where the resources weren't showing for the album pages." />
     <MESSAGE value="Had a few titles that were now too close to their albums on mobile, moved those down." />
     <MESSAGE value="Flipped the text color on the homepage to allow better readability with the new background image." />
-    <option name="LAST_COMMIT_MESSAGE" value="Flipped the text color on the homepage to allow better readability with the new background image." />
+    <MESSAGE value=":hammer: Made a handful of misc edits, namely removing the title from the header to allow Yoast to Force rewrite, as well as a few minor css tweaks to the homepage." />
+    <option name="LAST_COMMIT_MESSAGE" value=":hammer: Made a handful of misc edits, namely removing the title from the header to allow Yoast to Force rewrite, as well as a few minor css tweaks to the homepage." />
   </component>
   <component name="WindowStateProjectService">
     <state x="630" y="307" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1604950588968">
