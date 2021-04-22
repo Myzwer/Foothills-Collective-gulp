@@ -14,38 +14,51 @@
 get_header(); ?>
 
 
-    <?php if( have_rows('background_settings_hero') ): ?>
-        <?php while( have_rows('background_settings_hero') ): the_row(); ?>
-            <div class="grid-container full-width">
-                <div class="grid-x grid-padding-x front-page-hero" style = "background: linear-gradient(
-                    rgba(0, 0, 0, 0.<?php the_sub_field('tinting'); ?>),
-                    rgba(0, 0, 0, 0.<?php the_sub_field('tinting'); ?>)
-                    ),url(<?php the_sub_field('background_image'); ?>);
-                    background-position: <?php the_sub_field('vertical_alignment'); ?> center;
-                    background-repeat: no-repeat;
-                    background-attachment: scroll;
-                    background-size: cover;">
-                <?php endwhile; ?>
-            <?php endif; ?>
 
-                <div class="large-12 cell">
-                    <div class="content-middle">
-                        <h1 class = "center"><?php the_field('title'); ?></h1>
-                        <h2 class = "center dark-color-invert"><?php the_field('subtitle'); ?></h2>
-                        <div class="buttons">
-                            <?php if( have_rows('hero_button') ): ?>
-                                <?php while( have_rows('hero_button') ): the_row(); ?>
-                                    <a href = "<?php the_sub_field('button_link'); ?>">
-                                        <button class="btn-hover color-1-alt"><?php the_sub_field('button_text'); ?></button>
-                                    </a>
-                                <?php endwhile; ?>
-                            <?php endif; ?>
+    <!--End Header-->
+
+
+        <video src="https://dalemyn.local/wp-content/uploads/2021/04/Res-Power-Background.mp4" autoplay loop playsinline muted></video>
+        <div class="viewport-header">
+            <div class="head-container">
+                <div class="headline"><h1>Resurrection Power</h1></div>
+
+                <div id="modal-container">
+                    <div class="modal-background">
+                        <div class="modal">
+                            <h2>I'm a Modal</h2>
+                            <p>Hear me roar.</p>
+                            <svg class="modal-svg" xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" preserveAspectRatio="none">
+                                <rect x="0" y="0" fill="none" width="226" height="162" rx="3" ry="3"></rect>
+                            </svg>
                         </div>
                     </div>
                 </div>
+
+
+                <div class="buttons">
+                    <?php if( have_rows('hero_button') ): ?>
+                        <?php while( have_rows('hero_button') ): the_row(); ?>
+                            <button id="one" class="button btn-hover color-1-alt"><?php the_sub_field('button_text'); ?></button>
+                        <?php endwhile; ?>
+                    <?php endif; ?>
+                </div>
+
+
+
+
+
+
+
+
+
+
+
+
+                </div>
             </div>
         </div>
-    <!--End Header-->
+
 
 
 
