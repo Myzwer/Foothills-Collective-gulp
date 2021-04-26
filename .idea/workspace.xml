@@ -19,15 +19,13 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="053c30ea-41d6-43a4-9236-366eb4cc3d4d" name="Default Changelist" comment=":art: Made the buttons a little longer so they look better with longer text.">
+    <list default="true" id="053c30ea-41d6-43a4-9236-366eb4cc3d4d" name="Default Changelist" comment=":hammer: Got the modal working on the homepage after a TON of trial and error. Now I need to clean out the unused CSS and style the modal + add content.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/devwp/dist/css/main.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/dist/css/main.min.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/devwp/dist/css/maps/main.min.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/dist/css/maps/main.min.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/devwp/dist/js/devwp.js" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/dist/js/devwp.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/devwp/front-page.php" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/front-page.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/devwp/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/devwp/sass/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/sass/main.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/devwp/src/js/custom-scripts.js" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/src/js/custom-scripts.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/devwp/sass/components/_modal.scss" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/sass/components/_modal.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -116,7 +114,7 @@
       <workItem from="1611250076751" duration="39000" />
       <workItem from="1617291558976" duration="1749000" />
       <workItem from="1618424159389" duration="9000" />
-      <workItem from="1619099927932" duration="5202000" />
+      <workItem from="1619099927932" duration="9905000" />
     </task>
     <task id="LOCAL-00001" summary="Ok im going to be honest I have no idea what has changed, I just opened up this file after like 6 months and this is where we are at.">
       <created>1604612566741</created>
@@ -195,7 +193,14 @@
       <option name="project" value="LOCAL" />
       <updated>1617301862569</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary=":hammer: Got the modal working on the homepage after a TON of trial and error. Now I need to clean out the unused CSS and style the modal + add content.">
+      <created>1619109340284</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1619109340284</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -225,7 +230,8 @@
     <MESSAGE value="Flipped the text color on the homepage to allow better readability with the new background image." />
     <MESSAGE value=":hammer: Made a handful of misc edits, namely removing the title from the header to allow Yoast to Force rewrite, as well as a few minor css tweaks to the homepage." />
     <MESSAGE value=":art: Made the buttons a little longer so they look better with longer text." />
-    <option name="LAST_COMMIT_MESSAGE" value=":art: Made the buttons a little longer so they look better with longer text." />
+    <MESSAGE value=":hammer: Got the modal working on the homepage after a TON of trial and error. Now I need to clean out the unused CSS and style the modal + add content." />
+    <option name="LAST_COMMIT_MESSAGE" value=":hammer: Got the modal working on the homepage after a TON of trial and error. Now I need to clean out the unused CSS and style the modal + add content." />
   </component>
   <component name="WindowStateProjectService">
     <state x="593" y="308" width="598" height="490" key="find.popup" timestamp="1619104138051">

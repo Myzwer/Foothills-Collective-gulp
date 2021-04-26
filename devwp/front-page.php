@@ -18,16 +18,21 @@ get_header(); ?>
     <!--End Header-->
 
 
-        <video src="https://dalemyn.local/wp-content/uploads/2021/04/Res-Power-Background.mp4" autoplay loop playsinline muted></video>
+        <video src="<?php the_field('video_header'); ?>" autoplay loop playsinline muted></video>
         <div class="viewport-header">
             <div class="head-container">
-                <div class="headline"><h1>Resurrection Power</h1></div>
+                <div class="headline"><h1><?php the_field('title'); ?></h1></div>
+                <hr style = "width: 50%;">
+                <h2 class = "dark-color-invert"><?php the_field('subtitle'); ?></h2>
 
                 <div id="modal-container">
                     <div class="modal-background">
                         <div class="modal">
-                            <h2>I'm a Modal</h2>
-                            <p>Hear me roar.</p>
+                            <h2>Choose Your Platform.</h2>
+                            <a href="https://accounts.spotify.com/en/login?continue=https:%2F%2Faccounts.spotify.com%2Fauthorize%3Fscope%3Duser-follow-modify%2Buser-read-email%2Buser-follow-read%2Buser-library-modify%2Buser-read-birthdate%2Bplaylist-modify-private%2Buser-read-recently-played%2Buser-top-read%26response_type%3Dcode%26redirect_uri%3Dhttp%253A%252F%252Fdistrokid.com%252Fspotify%252Fcallback%26state%3D0B7A%26client_id%3D4a85c6638c3743928bee71feacbbcbf5%26show_dialog%3Dfalse"><img class = "absolute" src="<?php the_field('spotify_logo'); ?>" alt=""></a>
+                            <a href="#"><img src="<?php the_field('spotify_logo'); ?>" alt=""></a>
+                            <a href="https://music.apple.com/us/album/resurrection-power-single/1562390105?uo=4&app=itunes&at=1001lry3&ct=dashboard"><img class = "absolute" src="<?php the_field('apple_logo'); ?>" alt=""></a>
+                            <a href="#"><img src="<?php the_field('apple_logo'); ?>" alt=""></a>
                             <svg class="modal-svg" xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" preserveAspectRatio="none">
                                 <rect x="0" y="0" fill="none" width="226" height="162" rx="3" ry="3"></rect>
                             </svg>
@@ -43,17 +48,6 @@ get_header(); ?>
                         <?php endwhile; ?>
                     <?php endif; ?>
                 </div>
-
-
-
-
-
-
-
-
-
-
-
 
                 </div>
             </div>
