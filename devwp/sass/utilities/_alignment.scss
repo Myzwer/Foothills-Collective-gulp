@@ -128,3 +128,10 @@
     height: 100px;
   }
 }
+
+// ironically I need this to be height locked on mobile and I don't really care about desktop lol
+@media screen and (max-width: 39.9375em) {
+  .height-lock-mobile {
+    height: 200px;
+  }
+}

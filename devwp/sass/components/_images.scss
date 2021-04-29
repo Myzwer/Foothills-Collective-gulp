@@ -2,6 +2,7 @@
  * Images
  * =================================
  * - Image Shadows
+ * - Icons
  * - Just For Show
  *
  *
@@ -36,6 +37,24 @@
   position: relative;
   background-size: cover;
 }
+
+//*********************************************
+//************** Just For Show ****************
+//*********************************************
+.icon-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  img {
+    width: 55px;
+    text-align: center;
+    margin: 5px;
+  }
+}
+
+
+
 
 //*********************************************
 //************** Just For Show ****************
