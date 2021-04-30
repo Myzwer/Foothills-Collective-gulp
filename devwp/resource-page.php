@@ -118,7 +118,7 @@ get_header(); ?>
                         the_sub_field('song_section_single');
                         echo '</h4>';
 
-                        echo'<p class = "no-padding no-margin">';
+                        echo'<p class = "no-padding no-margin padding-bottom">';
                         the_sub_field('lyrics');
                         echo '</p>';
 
