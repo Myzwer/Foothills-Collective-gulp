@@ -22,8 +22,8 @@ get_header(); ?>
                 <h1><?php the_field('band_name'); ?></h1>
             </div>
             <hr style="width: 50%;">
-            <h2 class = "center lr-padding no-margin dark-color-invert"><?php the_field('title'); ?></h2>
-            <h3 class = "center lr-padding no-margin dark-color-invert"><?php the_field('subtitle'); ?></h3>
+            <h2 class="center lr-padding no-margin dark-color-invert"><?php the_field('title'); ?></h2>
+            <h3 class="center lr-padding no-margin dark-color-invert"><?php the_field('subtitle'); ?></h3>
 
             <div class="buttons">
                 <?php if (have_rows('hero_button')): ?>
@@ -47,20 +47,20 @@ get_header(); ?>
     *
     -->
 
-    <!--Mobile-->
-    <div class="show-for-mobile">
-        <div class="full-width main-background">
-            <div class="grid-x">
-                <div class="small-12 large-6 cell">
+
+    <div class="full-width main-background">
+        <div class="grid-x">
+            <div class="small-12 large-6 cell">
+                <div class="show-for-mobile">
                     <?php if (have_rows('background_settings_featured_release')): ?>
                     <?php while (have_rows('background_settings_featured_release')):
                     the_row(); ?>
                     <div class="image-banner-xlarge" style="
-                        background: linear-gradient(rgba(54, 54, 54, .1), rgba(54, 54, 54, 1)),url(<?php the_sub_field('background_image'); ?>);
-                        background-position: <?php the_sub_field('vertical_alignment'); ?> center;
-                        background-repeat: no-repeat;
-                        background-attachment: scroll;
-                        background-size: cover;">
+                            background: linear-gradient(rgba(54, 54, 54, .1), rgba(54, 54, 54, 1)),url(<?php the_sub_field('background_image'); ?>);
+                            background-position: <?php the_sub_field('vertical_alignment'); ?> center;
+                            background-repeat: no-repeat;
+                            background-attachment: scroll;
+                            background-size: cover;">
                         <?php endwhile; ?>
                         <?php endif; ?>
 
@@ -73,36 +73,75 @@ get_header(); ?>
                     </div>
                 </div>
 
-                <div class="small-12 large-6 cell dark-background">
-                    <div class="grid-container">
-                        <div class="grid-x grid-padding-y">
-                            <div class="small-12 medium-6 relative center cell">
-                                <h1 class=""><?php the_field('featured_title'); ?></h1>
-                                <h3 class="dark-color-invert"><?php the_field('featured_subtitle'); ?></h3>
-                                <div id="modal-container">
-                                    <div class="modal-background">
-                                        <div class="modal">
-                                            <iframe width="100%" height="100%" src="https://www.youtube.com/embed/RN5xUtzqs3Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                                            <div class="center"><a href="https://youtu.be/RN5xUtzqs3Q">Watch on Youtube >></a></div>
+                <div class="show-for-desktop">
+                    <?php if (have_rows('background_settings_featured_release')): ?>
+                    <?php while (have_rows('background_settings_featured_release')):
+                    the_row(); ?>
+                    <div class="image-banner-xlarge" style="
+                            background: linear-gradient(to right, rgba(54, 54, 54, .1), rgba(54, 54, 54, 1)),url(<?php the_sub_field('background_image'); ?>);
+                            background-position: <?php the_sub_field('vertical_alignment'); ?> center;
+                            background-repeat: no-repeat;
+                            background-attachment: scroll;
+                            background-size: cover;">
+                        <?php endwhile; ?>
+                        <?php endif; ?>
 
-                                            <svg class="modal-svg" xmlns="http://www.w3.org/2000/svg" width="100%"
-                                                 height="100%"
-                                                 preserveAspectRatio="none">
-                                                <rect x="0" y="0" fill="none" width="226" height="162" rx="3"
-                                                      ry="3"></rect>
-                                            </svg>
+                        <div class="grid-container">
+                            <div class="grid-x grid-padding-y">
+                                <div class="small-12 relative cell height-lock-mobile">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="small-12 large-6 cell dark-background">
+                <div class="grid-container">
+                    <div class="grid-x grid-padding-y">
+                        <div class="small-12 relative center cell">
+                            <h1 class="padding-top-desktop"><?php the_field('featured_title'); ?></h1>
+                            <h3 class="dark-color-invert"><?php the_field('featured_subtitle'); ?></h3>
+                            <div id="modal-container">
+                                <div class="modal-background">
+                                    <div class="modal">
+                                        <div class="show-for-mobile">
+                                            <iframe width="100%" height="100%"
+                                                    src="https://www.youtube.com/embed/RN5xUtzqs3Q"
+                                                    title="YouTube video player" frameborder="0"
+                                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                                    allowfullscreen></iframe>
                                         </div>
+                                        <div class="show-for-desktop">
+                                            <iframe width="560" height="315"
+                                                    src="https://www.youtube.com/embed/RN5xUtzqs3Q"
+                                                    title="YouTube video player" frameborder="0"
+                                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                                    allowfullscreen></iframe>
+                                        </div>
+                                        <div class="center">
+                                            <a href="https://youtu.be/RN5xUtzqs3Q">Watch on Youtube>></a>
+                                        </div>
+
+                                        <!--
+                                        I don't think I need this, but leaving it for now just in case.
+                                        <svg class="modal-svg" xmlns="http://www.w3.org/2000/svg" width="100%"
+                                              height="100%"
+                                              preserveAspectRatio="none">
+                                             <rect x="0" y="0" fill="none" width="226" height="162" rx="3"
+                                                   ry="3"></rect>
+                                         </svg>-->
                                     </div>
                                 </div>
+                            </div>
 
-                                <div class="buttons">
-                                    <?php if (have_rows('featured_button')): ?>
-                                        <?php while (have_rows('featured_button')): the_row(); ?>
-                                            <button id="one"
-                                                    class="button btn-hover color-1-alt"><?php the_sub_field('button_text'); ?></button>
-                                        <?php endwhile; ?>
-                                    <?php endif; ?>
-                                </div>
+                            <div class="buttons">
+                                <?php if (have_rows('featured_button')): ?>
+                                    <?php while (have_rows('featured_button')): the_row(); ?>
+                                        <button id="one"
+                                                class="button btn-hover color-1-alt"><?php the_sub_field('button_text'); ?></button>
+                                    <?php endwhile; ?>
+                                <?php endif; ?>
                             </div>
                         </div>
                     </div>
@@ -114,47 +153,6 @@ get_header(); ?>
 
 
     <!--desktop-->
-    <div class="show-for-desktop">
-        <div class="full-width main-background">
-            <div class="grid-x">
-                <div class="small-12 large-6 cell">
-                    <div class="image-banner-xlarge" style="
-                        background: linear-gradient(to right, rgba(54, 54, 54, .1), rgba(54, 54, 54, 1)),url(https://dalemyn.local/wp-content/uploads/2021/04/As-it-is-Background.jpg);
-                        background-position: center center;
-                        background-repeat: no-repeat;
-                        background-attachment: scroll;
-                        background-size: cover;">
-
-                        <div class="grid-container">
-                            <div class="grid-x grid-padding-y">
-                                <div class="small-12 medium-offset-1 medium-5 relative cell height-lock-mobile">
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="small-12 large-6 cell dark-background">
-                    <div class="grid-container">
-                        <div class="grid-x grid-padding-y">
-                            <div class="small-12 medium-6 relative center cell">
-                                <h1 class="padding-top margin-top">As it is</h1>
-                                <h2 class="dark-color-invert">Watch the Exclusive Youtube Release</h2>
-                                <div class="buttons">
-                                    <?php if (have_rows('hero_button')): ?>
-                                        <?php while (have_rows('hero_button')): the_row(); ?>
-                                            <button id="one"
-                                                    class="button btn-hover color-1-alt"><?php the_sub_field('button_text'); ?></button>
-                                        <?php endwhile; ?>
-                                    <?php endif; ?>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
 
 
     <!--

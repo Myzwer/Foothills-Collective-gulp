@@ -19,15 +19,13 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="053c30ea-41d6-43a4-9236-366eb4cc3d4d" name="Default Changelist" comment=":rocket: Updated the frontpage header section for the new single release. Added presave animation.&quot;">
+    <list default="true" id="053c30ea-41d6-43a4-9236-366eb4cc3d4d" name="Default Changelist" comment=":construction: Updated the homepage to prepare for the release of the new single. Also added a youtube featured video section to highlight a new post. Works on mobile, untested on desktop.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/devwp/dist/css/main.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/dist/css/main.min.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/devwp/dist/css/maps/main.min.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/dist/css/maps/main.min.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/devwp/front-page.php" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/front-page.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/devwp/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/devwp/sass/components/_images.scss" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/sass/components/_images.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/devwp/sass/components/_modal.scss" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/sass/components/_modal.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/devwp/sass/utilities/_alignment.scss" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/sass/utilities/_alignment.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/devwp/sass/utilities/_spacing.scss" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/sass/utilities/_spacing.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -116,7 +114,7 @@
       <workItem from="1611250076751" duration="39000" />
       <workItem from="1617291558976" duration="1749000" />
       <workItem from="1618424159389" duration="9000" />
-      <workItem from="1619099927932" duration="26349000" />
+      <workItem from="1619099927932" duration="30680000" />
     </task>
     <task id="LOCAL-00001" summary="Ok im going to be honest I have no idea what has changed, I just opened up this file after like 6 months and this is where we are at.">
       <created>1604612566741</created>
@@ -209,7 +207,14 @@
       <option name="project" value="LOCAL" />
       <updated>1619447279791</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary=":construction: Updated the homepage to prepare for the release of the new single. Also added a youtube featured video section to highlight a new post. Works on mobile, untested on desktop.">
+      <created>1619730754723</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1619730754723</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -241,7 +246,8 @@
     <MESSAGE value=":art: Made the buttons a little longer so they look better with longer text." />
     <MESSAGE value=":hammer: Got the modal working on the homepage after a TON of trial and error. Now I need to clean out the unused CSS and style the modal + add content." />
     <MESSAGE value=":rocket: Updated the frontpage header section for the new single release. Added presave animation.&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value=":rocket: Updated the frontpage header section for the new single release. Added presave animation.&quot;" />
+    <MESSAGE value=":construction: Updated the homepage to prepare for the release of the new single. Also added a youtube featured video section to highlight a new post. Works on mobile, untested on desktop." />
+    <option name="LAST_COMMIT_MESSAGE" value=":construction: Updated the homepage to prepare for the release of the new single. Also added a youtube featured video section to highlight a new post. Works on mobile, untested on desktop." />
   </component>
   <component name="WindowStateProjectService">
     <state x="593" y="308" width="598" height="490" key="find.popup" timestamp="1619104138051">
