@@ -19,9 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="053c30ea-41d6-43a4-9236-366eb4cc3d4d" name="Default Changelist" comment=":rocket: Completed the homepage with its new sections. Modal opens for YT promo, few other sections moved around.">
+    <list default="true" id="053c30ea-41d6-43a4-9236-366eb4cc3d4d" name="Default Changelist" comment=":art: Added some padding to the bottom of the lyrics section on the resources single page.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/devwp/resource-page.php" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/resource-page.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/devwp/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/header.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -110,7 +110,8 @@
       <workItem from="1611250076751" duration="39000" />
       <workItem from="1617291558976" duration="1749000" />
       <workItem from="1618424159389" duration="9000" />
-      <workItem from="1619099927932" duration="31491000" />
+      <workItem from="1619099927932" duration="34132000" />
+      <workItem from="1620677631973" duration="169000" />
     </task>
     <task id="LOCAL-00001" summary="Ok im going to be honest I have no idea what has changed, I just opened up this file after like 6 months and this is where we are at.">
       <created>1604612566741</created>
@@ -217,7 +218,14 @@
       <option name="project" value="LOCAL" />
       <updated>1619759694809</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary=":art: Added some padding to the bottom of the lyrics section on the resources single page.">
+      <created>1619760901231</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1619760901231</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -251,7 +259,8 @@
     <MESSAGE value=":rocket: Updated the frontpage header section for the new single release. Added presave animation.&quot;" />
     <MESSAGE value=":construction: Updated the homepage to prepare for the release of the new single. Also added a youtube featured video section to highlight a new post. Works on mobile, untested on desktop." />
     <MESSAGE value=":rocket: Completed the homepage with its new sections. Modal opens for YT promo, few other sections moved around." />
-    <option name="LAST_COMMIT_MESSAGE" value=":rocket: Completed the homepage with its new sections. Modal opens for YT promo, few other sections moved around." />
+    <MESSAGE value=":art: Added some padding to the bottom of the lyrics section on the resources single page." />
+    <option name="LAST_COMMIT_MESSAGE" value=":art: Added some padding to the bottom of the lyrics section on the resources single page." />
   </component>
   <component name="WindowStateProjectService">
     <state x="593" y="308" width="598" height="490" key="find.popup" timestamp="1619104138051">
